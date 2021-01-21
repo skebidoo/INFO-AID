@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".AEvents3">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Electrical Injury"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When person comes into accidental contact with an electrical energy source, an electric shock occurs that may cause injury ranging from a burn to devastating damage or death. A person who was suffered an electric shock may have very obvious severe burns or may have a little to no external evidence of injury. An electrical shock has the potential to cause a cardiac arrest. A brief low-voltage shock that doesn’t cause any symptoms or burns of the skin doesn’t require care or treatment, but for all high-voltage shocks or shocks that cause burns, go immediately to an emergency department. Children who experience electric-cord burns to the mouth need to be seen by a doctor immediately. For all critical injuries, call emergency number and proceed with emergency management as outlined in emergency response menu."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/aevents5" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electrical burns are caused when current runs through a person’s body. Typically, there will be only small area burns at both the entry and exit burns. There may be swelling and charring at both points. \n\n
+
+1.	Call emergency number immediately.\n\n
+
+2.	The person maybe in shock, unconscious, or even in cardiac arrest. Check for breathing and a pulse in an unconscious person, and start CPR if necessary.\n\n
+
+3.	If the person is conscious, pour cold water over the burns until help arrives, but never pour water near a live electrical source.\n\n
+
+Never approach a person with a suspected electrical burn until you are sure that contact with the electrical source has been broken and current has been switched off.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:layout_marginTop="10dp"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

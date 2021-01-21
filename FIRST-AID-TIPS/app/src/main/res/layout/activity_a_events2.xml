@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".AEvents2">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Sunburn"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Although sun poisoning is rarely fatal, sunburn hurts, can be disabling, and increases your risk in skin cancer. Sunburn is a burn in your skin caused by Ultraviolet (UV) radiation that results in inflammation of the skin, also causing premature aging of the skin and wrinkles. Even with limited exposure to the sun, any recent exposure and prior sunburn increase your risk, although normal limited exposure to UV radiation produces beneficial vitamin D in the skin."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/aevents5" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prevent sunburn before it starts by getting out of the sun, covering exposed skin, staying out of tanning beds, and use sunscreens with a high SPF (Sun Protection Factor). SPF indicates the time it takes to produce a skin reaction on protected and unprotected skin. For example, SPF 30, in theory, allows you to be exposed thirty times longer than without sunscreen. But this is not true in practice, as there is a limit to amount of sun exposure without sun damage even if applying sunscreen regularly, and people seldom apply it adequately and properly. \n\n
+-	Use OTC pain relievers for any discomfort. \n
+-	For mild sunburn, use cool compress with equal parts milk and water, or a cold compress with Burrows Solution., which you can buy at a drugstore and use as directed.\n
+-	Moisturized with aloe-based lotions, or use juices from an aloe plant.\n
+-	Take cool (not ice-cold) baths, but avoid bath salt, oils and perfumes to prevent sensitivity reactions.\n
+-	Don’t scrub or shave the skin or use lotions with topical anesthetic medications, because you can become sensitized and allergic to the medicine.\n
+-	Stay out of the sun while you are healing, and drink plenty of fluids.\n
+-	See your doctor for any severe blistering or you are dehydrated or suffering from heat stress.\n
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/aevents6" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:layout_marginTop="10dp"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".FWork4">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Where Is Your \n Emergency Station?"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Any workplace that involves potential eye injuries such as working with corrosive, irritating, toxic, or tissue-damaging materials needs to be equipped with an emergency eyewash station to protect you from serious eye damage or blindness. Workplaces that have potential chemical, biological, or radiological hazards need to be equipped with emergency shower stations. All other workplaces need to have a central emergency location where emergency supplies are located. The station or area should include the following: \n\n
+
+ - Emergency phone numbers \n\n
+ - The location of a fire-alarm manual pull-station posted \n\n
+ - Two portable fire extinguishers \n\n
+ - First-aid supplies \n\n
+ - Flashlights and batteries \n\n
+ - Approved power strips and extension cords \n\n
+ - A portable AM/FM radio with batteries and emergency \n\n
+ - radio or walkie-talkie \n\n
+ - A laboratory spill kit if needed \n\n
+
+ Your workplace first-aid kit should have the essential items outlined in First Aid Basics menu in quantities sufficient for the numbers of people employed, as well as the following items: \n\n
+
+ - 1 or more large, absorbent compresses \n\n
+ - 16 or more 1' x 3' adhesive bandages \n\n
+ - Several rolls of adhesive tape \n\n
+ - Smelling salts or ammonia inhalants \n\n
+ - 10 or more packets of povidone-iodine \n\n
+ - A dozen pairs of medical-exam gloves (latex and nonlatex) \n\n
+ - 4 or more sterile pads \n\n
+ - 1 large triangular bandage \n\n
+ - 1 eye patch \n\n
+ - 1 ounce of eye wash \n\n
+ - 1 chemical cold pack \n\n
+ - 2' wide roller bandages \n\n
+ - 3' wide roller bandages \n\n
+ - CPR barrier device \n\n"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/fwork8" />
+
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learning to use the AED should also be a part of your emergency protocol, planning, and training. According to OSHA, cardiac arrest causes 15 percent of workplace fatalities, and 40 percent of these lives could be saved with the use of an AED within five minutes of arrest. Having an AED that can be reached in two or three minutes by every location of your workplace is a matter of life and death."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".CConditions7">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Black Eyes"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Croup is a type of laryngitis in children, and is associated with a seal-bark cough and difficulty inhaling by swelling of the voice box (larynx) and wild pipe (trachea). Croup is usually the result of a virus, but can also be caused by allergies, bacteria, or inhaled irritants. Croup is most common in children ages six months to three year, although children can get croup at any age. Croup is common during the months of October through March. Most cases today are not serious, but severe cases might require hospitalization. \n\n
+
+Symptoms of croup are a very hoarse, deep, seal-bark type cough appearing after several days of cold symptoms that is usually worse at night. As croup continues, a child may have labored breathing, a high-pitched squawking or crowing noise on inhalation, and in a low fever. Croup is usually worst the first two or three nights, resolving in a week or so. Vaccines for measles, Haemophilus infuenzae (Hib), and diphtheria protect children against the more dangerous forms of croup.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/cconditions9" />
+
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First aid for black eyes includes the following: \n\n
+
+1.	Apply ice packs immediately after the injury in order to help decrease the swelling and pain. \n\n
+
+2.	Try to rest as much as possible. \n\n
+
+3.	Sleep with the head of your bed elevated. \n\n
+
+Use the packs for twenty minutes of every hour you are awake during the first twenty-four hours. Be careful to wrap the ice: never apply ice directly to the skin are any area of the body. You can also use a bag of frozen vegetables wrapped in a cloth. \n\n
+
+Stay away from all activities that may reinjure the area until after the eye has healed. Although most black eyes heal without complications, you should see an ophthalmologist to make sure that no significant injury has occurred to the eye. In addition, call your doctor for any of the following: \n\n
+
+-	Changes in vision \n\n
+-	Severe pain continues  \n\n
+-	Swelling is not related to an injury \n\n
+-	Signs of infection such as warmth, redness, or pus like drainage \n\n
+-	You are unsure about treatment or concerned about any symptoms \n\n
+-	You have any behavioral changes \n\n
+-	The swelling doesn’t start to improve after a few days \n\n
+-	You have any swelling near the eye from bee sting. \n\n
+
+Go to the emergency room or your doctor immediately for any of the following: \n\n
+
+-	Changes in or loss of vision \n\n
+-	Inability to move your eye \n\n
+-	You think an object pierced your eye or is inside your eyeball \n\n
+-	There is any blood in your eye \n\n
+-	Your eye looks deformed or has fluid leaking from it \n\n
+-	Any cuts (lacerations) to your eye area, face, or head \n\n
+
+You also need to go to an emergency department if you have signs of a serious head or facial injury such as: \n\n
+
+-	Broken bones or teeth \n\n
+-	Vomiting after the injury \n\n
+-	You are not able to walk after the injury \n\n
+-	You have blood or clear fluids coming from your nose or ears \n\n
+-	You take blood thinners \n\n
+-	You have a history of bleeding problems such as hemophilia"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:layout_marginTop="15dp"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

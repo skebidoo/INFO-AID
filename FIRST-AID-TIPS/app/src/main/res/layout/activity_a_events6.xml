@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".AEvents6">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Abdominal Pain"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abdominal pain is felt in many different ways including but not limited to burning, cramping, stabbing, throbbing, spasms, and sharp in the area below the ribs, above the pelvic bone, and around the flanks on each side. Pain in this area can arise from skin and abdominal-wall muscles but abdominal pain generally describes pain that comes from organs with the abdomen including the stomach, large and small intestines, appendix, colon, liver, gallbladder and pancreas. Sometimes pain that is felt in the abdomen is really coming from the lower lungs, the kidneys, and the uterus or ovaries and is called ‘referred’ pain. \n\n
+
+Abdominal pain is caused by inflammation, stretching or swelling of an organ, or by the loss of the supply of blood to an organ. But abdominal pain can also occur without any of these causes, such as in irritable bowel syndrome (IBS). IBS is not well understood but it may be due to abnormal contractions of the intestinal muscles (spasms) or abnormally sensitive nerves within the intestines that caused pain. Some abdominal pain is considered an emergency, such as appendicitis, or it may be more chronic but serious condition such as diverticulitis or colitis. All abdominal pain may be serious and life threatening and needs to be evaluated by your doctor.\n\n
+
+
+In children, note the following symptoms in order to describe the pain and symptoms accurately to you doctor:\n\n
+
+
+-	Length of time experiencing pain, particularly pain persisting for longer than twenty-four hours \n
+-	Location of pain or any pain outside the center of the abdomen\n
+-	The child’s appearance including, pale skin, sweating, sleepiness, and listlessness\n
+-	Nausea and vomiting that persists for longer twenty-four hours or vomit that appears red in color\n
+-	Diarrhea lasting longer than seventy-two hours or any blood in the stool\n
+-	Presence or absence of fever\n
+-	Groin pain (may indicate blood supply being cut off from testicles twisting itself)\n
+-	Urinary problems\n
+-	Any rash along with abdominal pain\n\n
+
+After you have spoken to or been examined by your doctor, continue to monitor your symptoms or those of your child and make sure to report any changes or lack of improvement. Also be aware that depending on the age of child, they may be reluctant to complain of symptoms.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/aevents12" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/aevents13" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abdominal pain may be a sign of serious illness and can cause severe pain. You may need to describe your pain to your doctor. An easy way to think of this is that 0 is no pain and 10 is pain so severe you are crying and your face is distorted in a grimace. \n\n
+
+Describe the pain as sharp or dull, burning or pressure like, jabbing and fleeting, steady and unrelenting or cramp like. Be sure to note any fever, chills, sweats, rectal bleeding, loss of appetite, diarrhea, weight loss, constipation, nausea, or loss of energy. Treat minor pain with:\n\n
+
+-	Rest \n
+-	A heating pad or soaking in a tub of warm water\n
+-	OTC antacids and pain relievers (but avoid aspirin or ibuprofen, as these drugs can make some types of stomach pain and condition worse)\n
+-	Plenty of fluids and a regular diet as tolerated\n\n
+
+For persistent pain, fever, vomiting, vaginal bleeding, loss of consciousness, chest pain, or other serious symptoms, see your medical-care provider.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView25"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

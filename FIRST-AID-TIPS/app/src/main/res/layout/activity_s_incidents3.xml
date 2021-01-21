@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".SIncidents3">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Penetrating Trauma"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="While gunshot wounds used to be something you only sow on TV, it’s a sad but true fact that these types of potentially life-threatening wounds are becoming more frequency in everyday life. Although you don’t want to have the misfortune to be involved in or to witness a gunshot incident, it’s vital to know how to act so that you can save a limb or even a life. Gunshot wounds and injuries caused by such thing as stabbing with knives fall into the category of what is referred to as penetrating trauma. \n\n
+
+Penetrating trauma is caused when an object pierces the skin or enters the tissue of the body, including gunshot wounds and stab wounds, as well as other types of object impalements. Penetrating injurie can range from superficial punctures to penetration of major body systems, and generally the greater the speed (velocity) of penetration, the more severe the injury tends to be.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/sincidents5" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gunshot wounds think first of your safety and the safety of any other persons responding. In assessing the severity of a penetrating injury, it’s important to understand that it may be life threatening depending on the type of object used, the location and depth of penetration, and the number of wounds. Knives and ice picks cause low-energy injuries because they are from a close distance, but one stab wound to the center of a person’s chest, neck, or head with a large knife is obviously much more serious than many stab wounds with a small knife to an arm or leg. \n\n
+
+For any penetrating injuries to the head, chest, and neck, or a wound that causes a person to fall, always suspect spinal injuries, and stabilize and protect the neck by holding the head firmly place in line with the body. Assess for ABCs and manage as outlined in Emergency Response menu. \n\n
+
+For chest wounds, note any potentially ominous symptoms, like shortness of breath and skin turning blue, along with pain in the chest and or back or the sound or airflow sucking or hissing through the puncture hole, referred to as a sucking chest wound. \n\n
+
+At the same time, watch for any signs of what is referred to as ‘’flail chest,’’ where an area of the chest draws in wen the person inhales, while the rest of the chest expands, and the area moves outward as the person exhales, while the rest of the chest contracts. \n\n
+
+For a sucking chest-wound injury, follow these steps: \n\n
+
+1.	Don’t remove clothing if it is stuck to the wound in a chemical environment and don’t attempt to clean the wound.\n\n
+2.	If you can, use the persons hand to cover the wound while you get some sort of occlusive dressing together. This can be any sort of plastic wrapper, aluminum foil, or duct tape, which should be placed to extend two inches pass the edge of the wound so the patch won’t get sucked back into the wound, and secured with adhesive tape.\n\n
+3.	Only tape three sides, leaving one side untapped so that when the person exhales, air goes out of the chest cavity and is able to escape from the open edge of the patch. When the person inhales, the patch will stick to the skin, preventing further air from entering the chest cavity (this method of patching helps to reflate the collapsed lung).\n\n
+4.	Place a larger dressing loosely over the patch so it doesn’t inhibit breathing, and roll the version carefully onto the injured side until help arrives.\n\n
+5.	Apply a thick, bulky dressing to support a flailed chest injury.\n\n
+
+Try to check pulses at the wrist, groin, femoral, and finally the neck or carotid. If you can feel a pulse at the carotid artery, you may need to begin CPR. Don’t move the injured person unless his or her safety is in jeopardy; place unconscious persons in the recovery position is outlined in Emergency Response menu until help arrives. \n\n
+
+Don’t clean up any blood on clothing, car seats, or the ground, because its needed by the first responders to estimate blood loss in order to report to the emergency department. Also, in cases of any violet crime including domestic violence, do not throw away or destroy any other evidence, including blood-stain clothing or any undergarments, obviously stained or not.\n\n
+
+Above all, stay safe, practice universal precautions, and understand that injuries involving guns and other weapons may be in an area of potential danger to any rescuers or responders. You aren’t any help to an injured person if you also get hurt. Always call emergency number first if you are clear that a gun is involve. Generally, a person with a gunshot wound has a better chance of survival if they are transported to a hospital in an ambulance within ten minutes of being shot.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

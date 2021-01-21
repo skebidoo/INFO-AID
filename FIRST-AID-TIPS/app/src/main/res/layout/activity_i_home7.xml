@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".IHome7">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Food Poisoning"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="gents are mostly viruses, bacteria, and parasites. Toxic agents include such things as poisonous mushrooms, pesticides on fruits and vegetables, and improperly prepared exotic foods. Most food-poisoning cases where specific contaminant is found are caused by viruses and bacteria. Toxic agents don't cause food poisoning as often as infectious agents do, and are usually related to an isolated episode caused by poor food preparation or something like picking wild mushrooms. When eaten, pesticides such as those found on unwashed vegetables or fruits may cause mild to severe illness with symptoms of weakness, increased salivations, blurred vision, headache, cramps, diarrhea, and shaking of the arms and legs. In recent years, some foods have been recalled by manufacturers due to contamination that has caused illnesses and even deaths."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ihome14" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use the following guidelines for treating food poisoning: \n\n
+
+ - Anyone who is experiencing short episodes of vomiting and small amounts of diarrhea that last less than twenty-four hours can be cared for at home by abstaining from solid food during the nausea and vomiting phase and drinking plenty of fluids, ideally clear liquids.\n\n
+
+ - Try to avoid alcoholic, caffeinated, or sugary drinks, and use over-the-counter rehydration products that are made specifically for children, such as Pedialyte and Rehydralyte, and sports drinks like Gatorade and Powerade diluted with water (full-strength energy drinks contain too much sugar and may worsen diarrhea) for adults.\n\n
+
+- After nausea and vomiting have stopped and you have been able to tolerate fluids, resume eating regular food slowly beginning with plain foods such as rice, wheat cereals and breads, potatoes, bland cereals, lean meats, and baked chicken that are easy on the stomach. Unless you have lactose intolerance you can safely drink milk also.\n\n
+
+Most of the time, you do not need an OTC medicine to stop diarrhea, but they are usually safe if used as directed and only by adults. If you have any concerns or symptoms of dehydration or nausea, vomiting, and diarrhea that last longer than twenty-four hours, bloody diarrhea and/or high fever, seek medical attention.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView22"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

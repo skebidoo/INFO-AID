@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".ATips3">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Halloween Safety"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Halloween is a time-honored tradition, but also one that brings a lot of excitement and sometimes lack of carefulness. Most Halloween accidents happen from falls and pedestrian-versus-car crashes. A little foresight can make this night much safer for everyone. Motorist need to take special care to be alert on Halloween and to watch for children who may be darting out from between cars and running across streets. Children in may be places you least expect them, such as walking on roadways, medians, and jumping off curbs, so you need to take care when exiting and entering driveways, roads, and alleys. Keep an eye out for children in dark clothing the entire evening. Some other Halloween tips include: \n\n
+
+-	All children under age twelve need to have an adult or an older, responsible youth supervising them while they go door to door. \n\n
+-	Give children a route to follow and instruct them not to go anywhere else, to only stop at houses or apartment buildings that well-lit, and to never go into a stranger’s home. \n\n
+-	Have set times for children to be out and precautions, including safety rules for walking on the road and curbs. \n\n
+-	Pin an identification paper o all children with their name, address, and phone number in case anyone gets lost or separated from the group. \n\n
+-	Use fire-retardant materials for costumes and have them loose enough for the kids to wear warm clothes underneath. \n\n
+-	To prevent falls, make sure the costumes aren’t too long or that there is anything else that could be a tripping hazard.\n\n
+-	Make a costume with a light-colored fabric, and reinforce that costumes and the bags children carry with reflective take to make the children visible.\n\n
+-	Make sure any mask that have nose, mouth, and eye holes large enough to really see and breathe through.\n\n
+-	Don’t ever let children carry sharp objects; make things like knives and swords from cardboard or other flexible materials.\n\n
+-	Give the kids flashlights to carry so they can see better, and also so they can be more easily seen by motorists.\n\n
+
+Instruct your kids to walk, not run, from house to house or in any places; to not run across yards and lawns where they might trip or unseen hazards; to walk on sidewalks, never in the street; and to walk facing traffic if there are no sidewalks in the left side of the road.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

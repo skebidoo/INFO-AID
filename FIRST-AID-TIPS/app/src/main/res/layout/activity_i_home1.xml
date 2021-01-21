@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".IHome1">
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView29"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Cuts (Lacerations)"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cuts and abrasions of all kinds can happen every day, from scraped knees on a patio to deep cuts on fingers and hands in the kitchen and workshop. Cuts are skin wounds that involve separation of the skin and are usually caused by a sharp object like a knife or a piece of glass. \n\n
+
+Take the followings steps to care for simple cuts and abrasions: \n\n
+
+1. Wash your hands with soap and water and then wash the wound under running water. For wounds that are bleeding, apply direct pressure with a sterile cloth or bandage and elevate the wound. \n
+2. Apply antibiotic cream, but avoid using iodine or hydrogen-peroxide solutions, as they can cause further damage to injured tissues and may cause allergic reactions in people reactive to iodine and shellfish. \n
+3. Dress the wound with a sterile gauze, preferably nonstick, bandage to protect the wound from infection and water loss until a scab forms. \n
+4. Keep the area around the wound clean and change any dirty dressings promptly. \n"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ihome1" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView21"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ihome2" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In the case of lacerations that are deep enough to see fatty tissue: \n\n
+
+1. Pull the edges of the wound together and use butterfly closures to secure them. \n
+2. Apply antiseptic or antibiotic ointment over butterfly closures, cover with a bandage, and seek medical attention. \n \n
+
+See doctor: \n \n
+
+- For cuts that don't stop bleeding after ten minutes or applying pressure. \n
+ - If there is a chance that nerves or tendons have been affected.
+ - If there is something embedded in the cut \n
+ - If the cut is caused by an animal or human bite or was punctured by anything dirty that may cause infection \n
+ - If the cut is on the mouth, face, hand, or genitals. \n \n
+
+If stitches are needed, keep the wound closed with butterfly closures until you can get professional care. If the wound is very dirty or is likely to be so, such as with human or animal bites, you only have about six hours before the wound is too contaminated to stitch. Other wounds may go as long as eight hours after the injury before being stitched, but the longer you wait, the less likely that stitches will be possible and any scarring can be minimized. For any signs of complications such as numbness or decreased movement; tenderness, inflammation, swelling, or red streaks around the wound; or fever seek immediate medical attention."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView22"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ihome3" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When a wound starts to bleed at any time, apply pressure to control the bleeding. If the cut is deep and bleeding is profuse, treat it as an emergency. Control the bleeding by placing a sterile gauze or pad over the cut and applying steady direct pressure. Lay the person down with feet elevated to help prevent shock. Never apply direct pressure to a wound with a protruding object or bone; instead, apply pressure to either side of the wound. If possible, elevate the cut above the level of the person's heart, and if bleeding is profuse and continuous, refer to Emergency Response menu, Managing Shock, and call emergency number immediately.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28"
+            app:srcCompat="@drawable/ihome4" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When treating abrasions, follow these steps: \n\n
+
+1. Remove any debris such as dirt, fiber, and rocks from an abrasion before cleaning it. \n
+2. Use tweezers to remove small objects, and a nonalcoholic wipe to gently clean off the wound, wiping in one direction. \n
+3. Wash the wound with soap and water, apply an antibiotic cream, and cover with a clean dressing. \n"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

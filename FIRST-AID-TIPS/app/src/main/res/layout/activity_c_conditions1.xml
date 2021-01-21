@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".CConditions1">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Fever"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Fevers are one way your body defends itself against many bacteria and viruses that like to live in the body’s normal temperature of 98.6°F and above. Increasing the temperature is one way the body works to make it harder for those sorts of invaders to survive, while activating your body’s immune system. A low fever is 98.8°F to 100.8°F, mild to moderate fever is 101°F to 103°F and a high fever is 104°F and above. Causes of fever include hot weather, immunizations, bacterial and viral infections, too much time in the sun, and allergies. Symptoms that accompany a fever often include a hot, flushed face, sweating, loss of appetite, nausea and vomiting, feeling hot, body aches, constipation or diarrhea. High fevers are sometimes associated with delirium and seizures. \n\n
+
+Any temperatures above 105°F orally can be serious and require immediate medical attention. For children with a fever up to 101°F and a runny nose, who are also acting cranky or tired, treat as you would a cold or flu, with non aspirin OTC medicine for fevers-such as children’s or infant’s acetaminophen or ibuprofen, following package directions.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/cconditions1" />
+
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Most thermometers today have digital readouts for oral, rectal, under the arm (auxiliary), and even ear canal readings. Always read directions so you understand what the thermometer’s beeps indicate and when it’s time to read the thermometer. Glass mercury thermometers are no longer recommended because of the danger associated with mercury exposure or ingestion. \n\n
+
+To taking a child’s temperature rectally you should: \n\n
+
+1.	Put a dab of petroleum jelly or other lubricant on the bulb end of the thermometer. Place child on her stomach. \n\n
+
+2.	Carefully insert the thermometer one-half to one inch into the rectum. \n\n
+
+3.	Hold the thermometer and keep the child still for three minutes (don’t let go of the thermometer). \n\n
+
+4.	Remove the thermometer and read as recommended by the manufacturer. \n\n
+
+A rectal temperature is an option for persons of any age when taking an oral temperature is not possible or may be problematic.
+To take an oral temperature, place the bulb end of the thermometer under the tongue, close the mouth for the recommended time (usually three minutes), remove and read. \n\n
+
+Under the arm (axillary temperature are not the most accurate way to take a temperature, but if you need to use this method, you can use an oral thermometer for an armpit reading. Axillary readings are about one degree less than an oral temperature reading. Place the thermometer under the arm with the arm down, and hold the arm across the chest. Wait for five minutes or the time recommended by your thermometer’s manufacturer, remove the thermometer, and read the temperature. Seek medical attention for any of the following: \n\n
+
+-	Babies younger than three months of age with a rectal temperature of 100.4°F or higher, even with no other symptoms. \n\n
+-	Babies older than three months of age with temperature of 102°F or higher. \n\n
+-	Newborns with a lower-than-normal temperature or less than 97°F rectally. \n\n
+-	Children younger the age two with fever for longer than one day. \n\n
+-	Children age two or older with fever for longer than three days. \n\n
+-	Children with fever after being left in a hot car or any other hot environment-seek medical care immediately. \n\n
+-	Adults with a temperature higher than 103°F or a fever for more than three days. \n\n
+
+Call your medical-care provider immediately for fever with any of the following: \n\n
+
+-	Severe headache \n\n
+-	Swelling if the throat (particularly severe swelling) \n\n
+-	Skin rashes \n\n
+-	Sudden unusual sensitivity to bright light \n\n
+-	Stiff neck and pain when bending the head forward or inability to bend neck forward \n\n
+-	Mental confusion \n\n
+-	Continual vomiting \n\n
+-	Chest pain or difficulty breathing \n\n
+-	Excessive listlessness or irritability \n\n
+-	Abdominal pain or main during urination \n\n
+-	Any other symptoms of concern
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/cconditions2" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/cconditions3" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="take the following steps for fever: \n\n
+1.	Use a thermometer to monitor temperature.\n\n
+
+2.	Remove blankets and excess clothing.\n\n
+
+3.	Keep the room cool.\n\n
+
+4.	Give sponge bath in lukewarm water.\n\n
+
+5.	Hydrate with plenty of fluids (watch for light-colored urine often, indicating a person id well hydrated).\n\n
+
+6.	Use acetaminophen to lower temperature as directed on the package.\n\n
+
+Don’t:\n\n
+
+1.	Give aspirin to anyone with fever.\n\n
+
+2.	Use rubbing alcohol in a bath or rubbed on the skin.\n\n
+
+See your medical-care provider for any irregular breathing or shortness of breath, stiff neck, confusion, rashes, persistent sore throat, vomiting, and diarrhea, painful urination, or seizures. Fevers below 102°F in adults don’t need treatment with any medications unless advised by your doctor. For fevers of 102°F or higher, take OTC medications such as acetaminophen or ibuprofen, and aspirin for ages sixteen and over only.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView25"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:layout_marginTop="15dp"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

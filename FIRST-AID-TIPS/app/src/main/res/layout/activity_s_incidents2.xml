@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".SIncidents2">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Internal Bleeding/ \nBlunt Trauma"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You can almost always identify external bleeding, but internal bleeding is more difficult to detect and to treat. Losing blood inside the body may lead to insufficient blood flow to the tissues and organs, and dangerously low or loos of blood pressure due to insufficient volume of blood or plasma, called hypovolemic shock, which will result in death if untreated. \n\n
+
+Internal bleeding can be the result of such things as motor-vehicle accidents and domestic violence, causing internal trauma and fractures; bleeding duodenal or gastric ulcers; brain hemorrhage; and ectopic pregnancy (pregnancy occurring outside the uterus that is life threatening and require immediate medical attention). Severe internal bleeding is usually caused by a blunt trauma, a violent force such as in motor-vehicle accidents, or from puncture wound such as knife or gunshot wounds. Whenever sighs of shock are present, you must suspect internal bleeding. \n\n
+
+The more common signs of internal bleeding damage are:\n\n
+
+-	Bruises (contusions), which may indicate deeper damage \n
+-	Anxiety and restlessness\n
+-	Excessive thirst\n
+-	Nausea and vomiting\n
+-	Rapid breathing (tachycardia)\n
+-	Any bruising or discoloration at the area of injury \n
+-	Blood in the stool, or stool that appears black and tarlike \n
+-	Blood in the urine\n
+-	Swelling, distend (bloated) abdomen\n
+-	Vomiting dark red (resembling coffee grounds)\n
+-	Decreased level of consciousness\n
+-	Severe headache\n
+
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/sincidents4" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use the following steps to treat internal bleeding: \n\n
+
+1.	Apply a cold pack or ice pack covered with a cloth to bruises in order to reduce pain and swelling.\n\n
+
+2.	Call emergency number and place the injured person with legs elevated it there is no chest injury.\n\n
+
+3.	In a case of chest injury, elevate the head and torso and keep the person warm until help arrives.\n\n
+
+4.	Manage shock as outline in Emergency Response menu.\n\n
+
+5.	Don’t allow the person to eat or drink or take any medication unless you advised to do so by a doctor.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".FAid2">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Universal Precautions"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.006" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The threat of communicable disease is a hazard in performing first aid. You should follow some standard precautions (called universal precautions) and use personal protection equipment like gloves, a CPR barrier, or eye protection. Universal precautions protect aid providers from exposure to HIV (the virus that causes AIDS), hepatitis B, and other blood-borne germs when exposed to blood, certain body fluids (including semen and vaginal fluid), and tissue from anyone who is infectious. Universal precautions should also be taken for cerebrospinal (from the lining of the brain and spinal cord), synovial (joint), pleural (lung), peritoneal (abdominal), pericardial (heart), and amniotic (pregnant uterus) fluids. These guidelines don't apply to other body fluids like saliva, urine, sweat, tears, nasal secretions, sputum, and feces unless they contain blood. Professional universal precautions include: \n\n
+
+1. Wash you hands before and after any medical intervention. \n
+2. Wear gloves whenever you are in contact with another's blood, body secretions, or tissues even if the person you are helping is a family member. \n
+3. Wear a facemask or body gown whenever there is a possibility of blood splashing onto the rescuer. \n
+4. Dispose of contaminated sharp objects in the appropriate puncture-proof container. \n
+5. Dispose of all contaminated equipment in an appropriate biohazard container. \n \n
+
+While you may not have all the equipment necessary, there professional guidelines will steer you in the right direction. As a layperson, you should try and follow there precautions as closely as possible."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView40"
+            app:layout_constraintVertical_bias="0.119" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="380dp"
+            android:layout_height="120dp"
+            android:paddingTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView41"
+            app:layout_constraintVertical_bias="0.064"
+            app:srcCompat="@drawable/faid8" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

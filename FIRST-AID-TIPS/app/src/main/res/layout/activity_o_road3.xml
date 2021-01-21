@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".ORoad3">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Good Samaritan Laws \nin Your Sate"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Because of today’s litigious society, there may be a certain reluctance to help out in emergency situations. Due to the fear of liability that may stop someone from getting involved, each state has laws or regulations known as Good Samaritan Laws to protect you from any liability related to rescues or rescue attempts. The intent of Good Samaritan Law is to protect those who come to the aid of others for no other reason than good will, without any expectation of reward. If your daily job is some type of rescue worker, then you are accountable for any mistakes and aren’t covered under Good Samaritan Laws, because it is expected that you know what you are doing and that should do a good job. \n\n
+
+Depending on the state you live in, if you help someone at an accident and afterward are rewarded monetarily or otherwise, your Good Samaritan protection may be excluded. So, the way to ensure protection from any liability when helping others during rescue operations is to always act on behalf of the injured party with no expectation of reward. If you want primarily to be a hero, not to help out a fellow human being, then you risk making typical mistakes not covered by Good Samaritan laws.\n\n
+
+Some general expectations of Good Samaritan laws are that you perform first aid to the best of your ability, and that ones you have stepped forward any accepted responsibility for helping, you do not leave until other qualified help is on the scene and has relieved you. Of course, if you feel that your own life is in danger, you have the freedom to leave, and if you are performing CPR and simply must stop from utter exhaustion, you may also without fear of reprisal, Good Samaritan laws may not protect you from every possible event, but they do take into account that it’s human nature to make mistakes, and they do protect against reasonable mistakes. However, in that “reasonable” maybe difficult to define, some people who think they should be covered under the Good Samaritan law may find themselves being sued. Ultimately, those law suits don’t usually get to court, and if they do, they tend to lose.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:layout_marginTop="15dp"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

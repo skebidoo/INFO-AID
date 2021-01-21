@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            tools:context=".SIncidents8">
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="390dp"
+                android:layout_height="143dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.157"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/header" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Carbon-Monoxide \nPoisoning"
+                android:textColor="#FF0000"
+                android:textSize="30sp"
+                android:typeface="monospace"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView13"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carbon monoxide is a colorless tasteless and odorless toxic gas that when inhaled can make you feed tired cause headaches or dizziness and in large amounts can lead to death. When carbon monoxide is preset in the air, oxygen-carrying cells will carry the carbon monoxide rather than the oxygen, and will become saturated with the gas and unable to carry needed oxygen to cells. That’s why it is so important to install carbon-monoxide detectors to warn of dangerous levels. \n\n
+
+    Most carbon-monoxide poisoning cases in homes occur at night during winter months because homes tend to be sealed up tightly from the cold and may be poorly ventilated. Carbon-monoxide gas is created by the incomplete combustion of carbon-containing compounds in fireplaces, space heaters, forced-air gas, furnaces, appliances, and motor vehicles that use charcoal or fuel. You are also at risk if you have any nonelectric appliances in your home, including a gas stove or water heater or if you have an attached garage. \n\n
+
+    Common symptoms of carbon-monoxide poisoning include: \n\n
+
+    -	Weakness \n
+    -	Dizziness and lightheadedness \n
+    -	Inability to concentrate \n
+    -	Difficulty moving \n
+    -	Chest pain \n
+    -	Nausea  \n
+    -	Headache \n
+    -	Shortness of breath \n
+    -	Seizures \n
+    -	Coma \n
+    -	Irritability and lethargy in infants \n
+    "
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView38"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView26"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/sincidents10" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The following steps should be followed in case of carbon-monoxide poisoning: \n\n
+
+    1.	If you are fortunate enough to wake up and notice symptoms of carbon monoxide poisoning, fall to the ground and crawl to an exit immediately. \n\n
+    2.	Call emergency number for the rescue of any persons left inside if you can’t safely get them to fresh air yourself, and don’t attempt to rescue anyone without the proper oxygen delivering masks.
+    3.	Get into fresh air immediately and make sure you are upwind of the house. \n\n
+    4.	Loosen any tight clothing around your neck and waist. \n\n
+    5.	The case of a person losing consciousness after getting outside, maintain an open airway and begin CPR or rescue breathing as outlined in Emergency Response menu. \n\n
+
+    In all cases of carbon-monoxide exposure, even if you feel fine, call emergency number in order to receive proper assessment and oxygen if needed.
+    "
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView23"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/button13"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="121dp"
+                android:layout_height="47dp"
+                android:background="@color/design_default_color_error"
+                android:text="BACK"
+                android:layout_marginTop="15dp"
+                android:textColorLink="#FFFFFF"
+                android:textSize="15sp"
+                app:backgroundTint="#FF0000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>

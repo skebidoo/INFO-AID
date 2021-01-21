@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".AEvents4">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Head Injuries and \n
+Head Trauma"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slipping-, tripping-, and falling-related injuries account for thousands of deaths each year and millions of disabling injuries. When someone does fall, broken bones are often the result, but sometimes fall result in more serious injury referred to as a head trauma or head injury. In fact, head injuries from slipping, tripping, or falling are one of the most common causes of disability and death in both children and adults. \n\n
+
+Head injuries may be mild to severe injuries that occur to the scalp and skull, such as lacerations and skull fractures, injuries to the brain and underlying tissues and blood vessels in the head. Depending on the extent of the head trauma, a head injury can also be called a brain injury, or traumatic brain injury (TBI). Concussions are head injuries that may cause immediate loss of awareness or alertness for a few minutes or a few hours after the event. Contusions are bruises to the brain that causes bleeding and swelling inside the brain in the area of impact to the head. A skull fracture is a break in the skull bone.\n\n
+
+In the head injuries that are caused by falling or direct blow to the head, such as shaking a child, a whiplash-type of injury occurs, and bruising and damage to the brain, the tissue, and blood vessels is caused when the brain jolts backward, striking the skull on one side rebounding to strike the other side. This jarring can also cause tearing of the lining, tissues, and blood vessels, causing internal bruising, bleeding, or swelling of the brain.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/aevents8" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mild head injuries do not require medical attention. The symptoms of a mild injury may include: \n\n
+
+-	A raised, swollen area ranging from a bump or bruise to small, shallow cuts in the sculp\n
+-	Headache\n
+
+Symptoms of moderate-to-severe head injury include:\n\n
+
+-	Confusion\n
+-	Loss of consciousness\n
+-	Blurry vision\n
+-	Severe headache\n
+-	Slurred speech\n
+-	Vomiting\n
+-	Inability or difficulty walking\n
+-	Dizziness\n
+-	Weakness on one side area of the body\n
+-	Sweating, pale skin\n
+-	Seizures\n
+-	Blood or clear fluid draining from the ears or nose\n
+-	Unequal pupils\n
+-	Deep cuts or lacerations in the scalp, an open wound in the head, or a foreign object penetrating the head or skull\n\n
+
+There also may be behavior changes including irritability and loss of short-term memory, such as being unable to accurately remember incident or events prior to it.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/aevents9" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In case of any signs of moderate-to-severe head injury call emergency immediately. You can treat and care for minor head injuries safely at home, but you should always call your doctor or seek medical attention if you have any concern about how serious the head injury is. In the case of bleeding under the scalp or bruises that are outside the skull known as “goose eggs”, use ice packs immediately in order to reduce swelling. Goose eggs are common and go away on their own at time. Never apply ice directly to the skin, but cover it with a cloth or towel, or use a bag of frozen vegetables wrapped in cloth or store-bought chemical ice packs and apply for twenty or thirty minutes at a time, about every two hours in the first twenty-four hours.’ \n\n
+
+Minor injuries usually occur from heights that are less than the height of the person, and occur on the soft area like carpeting, with no loss of consciousness. For these injuries, apply ice for lessen swelling and watch the person closely, prescribe bed rest with the head elevated and give fluids and a mild pain reliever such as acetaminophen as needed. Treat any superficial cuts as outlined in Common in-Hone Incidents menu. Any deep cuts need to be seen by a doctor or examined for any foreign matter or hidden injuries. The cuts will also be cleaned and closed with stiches, staples, or glue, and a tetanus shot will be given if the injured person has not received one in the last five to ten years.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:layout_marginTop="20dp"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".FAid2">
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Use a container with a strong handle that can be closed securely, and clearly mark it FIRST-AID KIT. Commercial kits can be purchased from many sources, but any large, well-build plastic fishing-tackle box or toolbox work great, and is usually much cheaper.
+
+\n\nIdeally, you want your kit to be light enough to carry, but large enough to hold all necessary items in an organized and easily accessible format. It should be dust proof, waterproof, and sturdy enough to resist damage from falling or crushing."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView15"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="The Proper Supplies"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.007" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="In order to properly administer first aid, you will need a good first-aid kit. The better stocked and organized your first-aid kit is, the more likely you are to effectively respond to emergencies in your home. Keep a written list of kit supplies in your home, along with your emergency plan, and be sure to restock the kit as needed and replace items with expired dates, items that have been used, or anything with an open package or broken seal that is support to be sterile. Keep a first-aid manual like this one with your kit, along with your list of emergency phone numbers, your list or chart of family's medical conditions and medications, and a flashlight."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.001" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="380dp"
+            android:layout_height="150dp"
+            android:paddingTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView39"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/faid1" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView14"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/faid2" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView42"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/faid3" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Store your kit safely in a cool, dry location inside your home. Avoid storing it in the garage or laundry room because of the potential harm to its contents from moisture and temperature extremes. Pick a location in your home that is central and accessible to everyone who will be using the kit."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView17"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView44"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/faid4" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="The ideal kit that will prepare you for most injuries and household emergencies should include the following items: \n\n
+
+- Benadryl (generic Diphenhydramine) \n
+ - Antibiotic ointment or cream  \n
+ - Activated charcoal (only use if instructed by the Poison Control  Center)  \n
+ - Antacid (liquid)  \n
+ - Calamine lotion  \n
+ - Antihistamine cream  \n
+ - 1% hydrocortisone cream  \n
+ - Povidone-iodine solution  \n
+ - Aspirin, acetaminophen, and ibuprofen  \n
+ - Sterile eye-wash solution  \n
+ - Epinephrine auto-injector kit ( if prescribed by your doctor )  \n
+ - Extra prescribed medications ( such as inhalers )  \n \n
+
+Your kit should also contain bandages and dressing supplies including:  \n \n
+
+ - Commercial Band-Aid bandages \n
+ - Sterile cotton balls \n
+ - Cotton-tipped swabs \n
+ - Sterile gauze ( pads and rolls ) \n
+ - Elastic bandage rolls \n
+ - Extra bandage clips \n
+ - Butterfly bandages  \n
+ - Sterile eye patches \n
+ - Regular adhesive bandages ( multiple sizes ) \n
+ - Adhesive tape ( waterproof and stretchable ) \n
+ - Triangular bandages \n
+ - Large foil-lined bandage \n
+
+Additionally you should include tools and other items such as : \n \n
+
+ - Bulb syringe \n
+ - Medicine spoon ( transparent tube marked with typical dosage amounts ) \n
+ - Small paper cups \n
+ - Clean clothes and tissues \n
+ - Hand sanitizer \n
+ - Digital thermometer ( and rectal thermometer for babies less that on year old ) \n
+ - Small jar or petroleum jelly \n
+ - Sterile disposable gloves  \n
+ - Disposable CPR face mask \n
+ - Safety pins \n
+ - Scissors ( the sharp, angular style with rounded end ) \n
+ - Tweezers \n
+ - Tooth-preservation kit \n
+ - Space blanket \n
+ - Penlight \n
+ - Small pad of paper and pencil \n
+ - Emergency candle and waterproof matches \n
+ - Disposable self-activating cold and hot packs \n
+ - Magnifying glass \n
+ - Whistle \n
+
+ "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView18"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:paddingTop="10dp"
+            android:text="BACK"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView45" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

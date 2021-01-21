@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".CConditions7">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Nosebleeds"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nosebleed are often dramatic and frightening, but usually not serious, and are dealt with easily. The two types of nosebleeds are classified by whether the bleeding is coming from the front nose (anterior), accounting for 90 percent of all nosebleeds, or the back of the nose (posterior). Anterior nosebleeds are easily controlled at home or by a doctor. Posterior nosebleeds tend to occur more often in elderly people and are more complicated, often requiring hospital admission and management in the ear, nose, and the throat specialist. The majority of the people will experience a nosebleed at some time in their life, but they are most common in children age two to ten and adults age fifty to eighty. Nosebleeds tend to occur I the morning hours in dry, cold climates and during the winter. \n\n
+
+Most nosebleed are due to some identifiable factor such as allergies, blunt trauma to the nose, trauma inside the nose from such things as nose picking or irritation from a cold or cocaine use, and dry nasal passages from clot: are taking blood-thinning medications or aspirin: have liver disease, abnormal blood vessels or cancers int the nose, you may also experience nosebleed, but won’t likely be the only cause.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/cconditions10" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you experience a nosebleed, follow the steps below: \n\n
+
+1.	Remain calm and sit up straight, leaning your head forward-don’t tilt your head back because blood will run down your throat, causing you to gag and swallow the blood. \n\n
+
+2.	Using you thumb and forefinger, pinch your nostrils together ten full minutes, and repeat if the bleeding doesn’t stop after the first ten minutes. \n\n
+
+3.	Don’t swallow any blood: spit out so that you don’t vomit. \n\n
+
+After the bleeding has stopped, try to prevent any further irritation such as sneezing or nose blowing for the next twenty-four hours.
+Don’t use ice packs, because they do not help. If you have dry air in your home, like most people do in winter, add moisture to the air with humidifier or vaporizer or nasal gel or saline nasal spray to help keep nose from drying out. See your doctor: \n\n
+
+-	For any repeated episodes of nosebleeds \n\n
+-	If you have any other bleeding, such as in the urine or stool, along with nosebleeds \n\n
+-	If you are bruising easily \n\n
+-	If you are in any blood-thinning medications \n\n
+-	If you have any underlying disease that may affect your blood-clotting ability, such as liver or kidney disease or hemophilia \n\n
+-	If you are on or have recently had chemotherapy
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            app:layout_constraintVertical_bias="0.096"
+            app:srcCompat="@drawable/cconditions11" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

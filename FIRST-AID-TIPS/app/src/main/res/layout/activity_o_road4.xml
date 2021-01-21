@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".ORoad4">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="How Safe is Your Car?"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Motor-vehicle accidents injured millions of people and are the cause of death for over a million people worldwide each year. Drunk driving, speeding, and improper use (or lack of use) of safety or seat belts are the leading causes of motor-vehicle accidents have multiple causes including impaired driving, multitasking while driving, aggressive driving, equipment failure, and road way maintenance and design problems."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/oroad8" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Everyone in a moving vehicle should use age-appropriate restraints, including pregnant women, in order to ensure safety and being compliance with the law. Children that are age twelve and under and those weighing less than eighty-five pounds should ride in the back seat, as airbags, which are primary located in the front, are only design to protect adults and have the potential to injure children. Some cars are equipped with child-safety locks that prevent a child from accidentally opening the doors from the side. \n\n
+
+Your local department of transportation authority has detailed instructions and laws for child safety in motor vehicles. All babies who are under twenty pounds and twelve months old must be placed securely in a rear-facing car seat in the back seat. This system has been designed to prevent severe head injuries or death, which can occur if the car seats are in the wrong position, or located in the front when an airbag deploys. Everyone should refer to specific local and state regulations for the transport of infants. \n\n
+
+Toddlers between twenty and forty pounds and who are at least one year old can sit in a forward-facing car seat with harness straps in the backseat. Studies are also showing that it is safer to use rear-facing seats up to the age of four or five. Children who are less than 4’9” tall should sit in a booster seat for better head and neck protection. In cars with seat backs that are higher than the child’s ears, use a backless booster seat. For all car seats, follow all manufacturer recommendations and instructions and never deviate from them.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/oroad9" />
+
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For motor-vehicle safety, always follow your vehicle operation and maintenance recommendations. Most auto manufacturers recommend oil changes every three months or three thousand miles, whichever comes first. Find a good mechanic to keep your car in tip-top shape with regular tune-ups if you are not able to work on it yourself. Check your tire pressure at least once a month to prevent an expected flat, and make sure to rotate your tires and check their alignment at your regular tune-ups or every other oil change. \n\n
+
+Pay attention to warning signs, such as things that don’t feel, sound, or smell right, or if you find leaks or stains where you park. Don’t forget that an ounce of prevention is worth a pound of cure, particularly that may lead to an auto-related injury. Get your vehicle ready for the changing seasons, because defending your auto against the elements will lessen your chance of weather-related accidents and road side problems and will even fend off costly repairs. Learn the basics of caring your vehicle so that you can check your fluids regularly. If you are unable to, keep your car in a garage, or do your best to keep it in a dry temperate place in order to keep interior and exterior wear and tear at bay, thus preserving the condition and optimal safety operation of the car. \n\n
+
+You need to have your identification, registration and insurance cards, and a small amount of money with you when you drive. If you have a cell phone, carry it with you fully-charged. Along with your first-aid emergency equipment, your vehicle should also carry the following items: \n\n
+
+-	Tire-changing equipment/spare tire (properly inflated) \n
+-	Rags, paper towels \n
+-	Window cleaner \n
+-	Jumper cables \n
+-	Can of tire inflator and sealant \n
+-	Motor oil, antifreeze, and brake fluid \n
+-	Container of water for radiator \n
+-	Sunglasses  \n
+-	Plastic bags \n
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

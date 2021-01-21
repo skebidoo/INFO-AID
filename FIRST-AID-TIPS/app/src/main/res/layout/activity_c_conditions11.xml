@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".CConditions11">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Panic Attacks"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Panic attacks can happen anywhere, anytime-while alone in the company of others, in public, in home, and even waking you from sleep. If you have experienced panic attacks, you are aware that they are similar to an episode of extreme fear; along with the following symptoms: \n\n
+
+-	Rapid heart rate \n\n
+-	Sweating \n\n
+-	Trembling \n\n
+-	Shortness of breath and hyperventilation \n\n
+-	Chills or hot flashes \n\n
+-	Nausea \n\n
+-	Abdominal cramping \n\n
+-	Chest pain \n\n
+-	Headache \n\n
+-	Dizziness \n\n
+-	Faintness \n\n
+-	A feeling of tightness in your throat \n\n
+-	Difficulty swallowing \n\n
+-	A sense of impending death \n\n
+
+Oftentimes, people experiencing panic attack think that they are having a heart attack and seek emergency care.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/cconditions14" />
+
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relaxation techniques such as mediation, muscle relaxation, relaxed breathing, and guided imagery (visualization) may help keep attacks at bay and help ease signs of symptoms of stress such as headaches, anxiety, high blood pressure, trouble falling asleep, hyperventilation, and clinching or grinding of teeth. Practice focusing on relaxing your body by following these steps: \n\n
+
+1.	Sit or lie down in a comfortable position with your eyes closed. \n\n
+
+2.	Let your jaw drop and your eyelids become relaxed and heavy, but not tightly closed. \n\n
+
+3.	Starting with your toes and working up slowly to your legs, buttocks, torso, arms, hands, finger, neck, and head, concentrate on each part individually, relaxing each area before moving on to the next. \n\n
+
+4.	In the same order, tighten the muscles in each area of your body, holding the muscle tight for a count of five and then relaxing and moving on to the next area. \n\n
+
+Along with your stress-reduction techniques, it’s essential to get enough sleep, eliminate caffeine, and have a regular exercise program. If your panic attacks are recurrent, you persistently worry about the attacks for a month or longer, or you feel you need to change your behavior (for example, by avoiding locations or situations on which you’ve previously had an attack), then you may have a panic disorder and you ed to see your doctor.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:layout_marginTop="15dp"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

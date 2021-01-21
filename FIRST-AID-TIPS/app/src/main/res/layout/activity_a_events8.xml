@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".AEvents8">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Asthma Attack"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asthma affects the breathing passages of the lungs (bronchioles) due to chronic inflammation. This inflammation causes the airways of the person with asthma to become highly sensitive to a variety of ‘trigger,’ and when triggered, the passages swell and feel the mucus. These intern causes the muscles within the breathing passages to contract or spasm (bronchospasms), which results in further narrowing of the airway passages, making it difficult for air to be exhaled from the lungs. It’s the resistance to exhaling that results in the typical symptoms of an asthma attack, including wheezing, difficulty breathing, pain or tightness in the chest, anxiety, coughing, choking sensation, sweating, increased pulse, and recurrent, spasmodic coughing that is often worse during the night. \n\n
+
+If you have asthma, you have to learn to live with the condition and be aware of any danger of attacks when exposed to something that is a trigger for you. Asthma can be cured, but it can’t be controlled, particularly if it is diagnosed early and treatment is begun right away. You should always see your doctor regularly and follow your treatment recommendations. Report any changes or worsening of your symptoms and any side effects of your medications. Treatment is designed to prevent and control symptoms and asthma attacks, particularly attacks that are severe enough to require a visit to an emergency department or hospitalization.\n\n
+
+Sometimes it might happen: you might have an asthma emergency. Here are some of the signs that you should look for that indicate your symptoms are getting worse:\n\n
+-	Sweating \n
+-	Breathing so hard that you have difficulties speaking\n
+-	Using your abdominal muscles to breath out and skin is denting in around your ribs with breathing\n
+-	Bluish color around lips and finger nails\n
+-	Nostrils beginning to widen when breathing in\n
+-	Wheezing, breathing hard, or coughing- even after the rescue medications have been given
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/aevents15" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anyone with asthma needs to be continually aware of what triggers her symptoms and to avoid those triggers, as well as how to manage symptoms. Take the following steps to help control asthma attacks: \n\n
+
+-	Identify your triggers and how you can avoid them. \n
+-	Quit smoking both cigarettes and other substances.\n
+-	Don’t use any nonprescription inhalers because they are short-acting drugs that are not likely to prevent an asthma attack and may cause undesirable side effects.\n
+-	Avoid nonprescription remedies, herbs, or dietary supplements, even those that are considered to be completely “natural” until discussing them with your doctor because some may have side effects and others may interfere with your medications. \n
+-	Don’t take more asthma medication than is prescribe because overuse can also be dangerous.\n\n
+
+In the case of an asthma attack, take two puffs of your prescribed rescue medication (inhaled beta-agonist), waiting one minute between puffs (or as recommended by your doctor), and call your doctor if you are already taking oral or inhaled steroids and your treatments are not lasting for hours, you need to notify your doctor. These are only general guidelines, so always follow your doctor’s instructions closely.\n\n
+
+For any asthma attacks with severe shortness of breath, all emergency number immediately; do not drive yourself.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:layout_marginTop="10dp"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

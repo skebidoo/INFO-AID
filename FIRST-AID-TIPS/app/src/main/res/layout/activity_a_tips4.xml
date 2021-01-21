@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".ATips4">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Allergic Reactions"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="It’s the most wonderful time of the year- to gather with friends and family, to eat lots of good food, to decorate, and to exchange presents and good will. But it’s also a time to be very conscious to any potential holiday health and safety hazards such as depression, accidents, allergies, and alcohol-related problems so that you can have truly enjoyable and joyful holiday season."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/atips1" />
+
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The holidays are synonymous with food and even bringing for some. Eating too much can cause you to gain weight, and it can also lead to heartburn and condition called gastroesophageal reflux disease (GERD), which is acid backing up into the esophagus. If you already suffered from GERD, then holidays are going to be additional challenge for you. The best treatment for heartburn is to not overeat and drink plenty of nonalcoholic and no caffeinated fluids throughout the day. Avoid eating white foods like refined sugar, potatoes, and white rice; refined, processed foods; and fried foods; and drinking coffee and alcohol. Try to space out your meals and make them smaller and more frequent. If you have nighttime symptoms, try elevating the head of your bed four to six inches and eat your last meal to four hours before bedtime."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/atips2" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="People who have asthma and allergies have added health challenges during the holidays. It’s a good idea to be specifically careful of any known triggers and to take you medication as prescribed. In order to avoid any problems with food allergies, make sure to ask your guest if they have any allergies so that you can prepare a safe feast without any of the ingredients that will cause someone to be ill or have an allergic reaction. If you have been prescribed an epinephrine injection kit, take it with you and when you eat out and make sure others are aware that’s it’s available in case of a reaction."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/atips3" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To holidays typically involved alcohol., with myriad office parties and social events and family get-togethers. As during the rest of the year, moderation is the key. Most people who overindulge have had the most unfortunate experience of too much alcohol, causing overeating, sometimes promiscuity, impairment to driving, and much more. It’s also very high in calories and only adds to the holiday weight problems, and too many drinks at one time, as can happen at some parties, causes alcohol poisoning. Pregnant women and women trying to get pregnant should not drink, as alcohol during pregnancy has serious consequences on the growth and development of the fetus, a condition known as fetal alcohol syndrome. Anyone with a history of alcoholism or alcohol abuse has even more temptations with alcohol at parties, feasts, and get-togethers. If you know someone who has a problem or difficulty saying no to alcohol, help them out by making it unavailable when they are visiting. And when you are going out, give yourself a limit so that you don’t become a statistic, designate a driver, and stop yourself from doing anything you might regret."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView25"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/atips4" />
+
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Holiday decorations are a fixture of the holidays, but when they are not used properly, they can result in fires, injuries, and even fatalities. \n\n
+
+-	Artificial trees should be labeled, ‘Fire Resistant.’ \n\n
+-	Live trees need to be fresh, with green needles that are firmly on and not dry (test your tree by tapping it on the ground: it’s fresh if most of the needles stay on the tree). \n\n
+-	Never set up your tree near a fireplace, radiator, doorway, or any traffic area, and keep the tree stand filled with water. \n\n
+-	All lights should have labels stating that they were tested for safety by a recognize laboratory. \n\n
+-	Don’t use broken lights, lights with cracked sockets, frayed or bare wires, or loose connections. \n\n
+-	Don’t leave lights on when you go to bed or leave the house. \n\n
+-	Only use noncombustible or flame-retardant materials for tree trimming, and never use lighted candles on a tree. \n\n
+-	Keep all sharp and breakable decorations away from children, as well as any small, removable parts, decorations, and toys."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView26"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/atips5" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Probably the biggest mental-health issues around the holidays are stress, fatigue, and anxiety. Holidays often cause self-reflection and loneliness because they cause people to think of the past or of loved ones who aren’t there or who have died. In order to keep low moods at bay, keep your routine as stable as you can, exercise and eat right, and limit alcohol. You may find that you can actually enjoy yourself more if you don’t overindulge with food and drink, if you do get enough of sleep, and pace yourself for when you need to stop drinking or eating. Also remember that you have personal physical, emotional, and financial limitations and you can’t be everything t everyone or give what you don’t have. Remember to look at the holidays as new beginning with opportunities for the future instead of regrets about the past, and this includes setting realistic New Year’s resolutions. Be careful and stay safe during the holidays so you can have a truly joyous season."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView27"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:layout_marginTop="15dp"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

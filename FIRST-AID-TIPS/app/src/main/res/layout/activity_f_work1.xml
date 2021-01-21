@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".FWork1">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="How Safe Is \nYour Workplace?"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The Occupational Safety and Health Act of 1970 (OSH Act) was instituted by the U.S. Department of Labor to ensure safe and healthy work conditions for working men and women. This act grants the Occupational Safety and Health Administration (OSHA) the authority to impose and enforce standards or regulations affecting the safety and health of private-sector employees. \n\n
+
+Every safety measure outlined for home safety also applies in the workplace for employee safety and for the safety of the public. In addition, employees need to be aware of and t o practice fire, safety, health, and disaster protocols set up by employers. Workers need to know how to use and have access to such provisions as safe ergonomic equipment and safety gear when called for, and need knowledge of proper body mechanics, knowledge of proper food handling, and good ventilation and lighting. A safe workplace needs to: \n\n
+
+ - Be free from any recognized hazards and constructed with safety in mind. \n\n
+ - Make all safety devices and gear, and proper tools and equipment available as needed \n\n
+ - Prohibit alcohol and narcotics \n\n
+ - Ensure employees protection from chemicals and biological agents such as bodily fluids, mold and mildew, and those found in research labs \n\n
+ - Provide protection from animals or animal waste in animal-related workplaces \n\n
+ - Make sure employees are aware of and practicing proper body mechanics and exercises to avoid injury \n\n
+ - Provide ample time for meals and breaks \n\n
+ - Ensure employees are able to enter and leave the workplace safely \n\n
+ - Ensure employees protection from mental stressors such as workplace harassment, bullies, and physical threats and violence.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/fwork1" />
+
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workplace protocol should include fire extinguishers that are readily accessible; working, manual fire alarm pull boxes on the walls; emergency lights; exit doors; unobstructed sprinkler heads; and sprinkler system risers. In case of fire, access to the front and rear of the building should be unobstructed at all times, including clear access to fire hydrants, automatic sprinkler connections, and sprinkler control valves. Your workplace should have designated smoking areas with safe, noncombustible receptacles to extinguish smoking materials. Brush and vegetation and all other combustibles need to be kept clear of the building. Your office or workplace should be equipped with permanent wiring, not extension cords and surge suppressors connected to all computers. Owners and management need to maintain all equipment up to code and ensure that all combustibles are stored away from heat sources. In the event of a fire, pull fire alarms, call emergency number, exit the building, and wait for the fire department to arrive.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:layout_marginTop="15dp"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

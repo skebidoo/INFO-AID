@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".FWork2">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Preventing Injuries \nin the Workplace"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Back injuries, stress-related health problems, carpel tunnel syndrome, headaches, and mental-health problems are all conditions that may result from poor ergonomic workplace conditions including temperature, station design, lighting, noise, rotating shifts, inadequate meals and breaks, and machine design. Small corrective measures can prevent large and costly problems. For example, using ergonomically correct chairs and keyboards, properly positioned workstations, a mouse with the correct tension, wrist supports, telephone neck supports, ample lighting, frequent breaks, and proper foot support are measures that will help prevent many physical problems.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/fwork2" />
+
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The emergence and ubiquity of computers in the workplace has contributed to an epidemic of repetitive stress injuries most commonly called carpal-tunnel syndrome. Carpal-tunnel syndrome is a painful, progressive condition caused by compression of a nerve in the wrist due to repetitive motion, improper positioning of the wrist, and repeated stressors such as continual vibrations from using a jackhammer or even sewing machine.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/fwork3" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The following measures can be used to avoid carpal tunnel syndrome:  \n\n
+
+ - Reducing your force and relaxing your grip by tapping keys softly. \n\n
+ - Using a big pen with an oversized, soft grip and free flowing ink \n\n
+ - Using a keyboard and mouse with the proper tension \n\n
+ - Keeping keyboards at elbow height or just slightly below, with the wrist at a relaxed middle position, not bent up or down \n\n
+ - Taking frequent breaks \n\n
+ - Practicing carpal-tunnel exercises before and after you work shift and during your breaks \n\n
+ - Alternating tasks if you can \n\n
+ - Improving your posture \n\n
+ - Keeping you hands warm \n\n
+
+You may also wear splints at work and while sleeping if you have symptoms of carpal-tunnel syndrome such as tingling or numbness in fingers or hands; pain or weakness in wrists, arms, or hands; and loss of feeling in some fingers. While you sleep, the tendency is to keep the wrists flexed; wearing splints at night will keep your wrists from flexing. Wrist splints are available at most pharmacies and many retail outlets. Anyone with moderate to severe symptoms needs to see their doctor. \n\n
+
+Following are some carpal-tunnel exercises you can try: \n\n
+
+1. In a standing position, lift and extend both arms straight out. Flex your entire hand at the wrist as if saying stop. Hold in this position for five seconds. \n\n
+
+2. Straighten your wrist and relax your fingers so that arms, wrists, hands, and fingers are level and fingers are pointing forward.  \n\n
+
+3. Maintain the level position while making a fist; clench it tightly and hold for five seconds. \n\n
+
+4. With fists clenched, flex your wrists down and hold for five seconds. \n\n
+
+5. Straighten your wrists and relax you fingers so that arms, wrists, hands, and fingers are level and fingers are pointing forwards (as in positions 2). \n\n
+
+6. Repeat all the steps ten times, followed by standing with your arms relaxed by your sides.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/fwork4" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back injuries are one of t he most common and costly work-related disorders in the United States. Lower-back pain is responsible for many days of lost work, increased number of workers-compensation claims, increased monetary business losses, and undue suffering every day. Many back injuries can be prevented by practicing measures for good back health including using ergonomically correct chairs and equipment, good posture, and regular exercise and conditioning. In addition, you should always practice good body mechanics and use proper lifting techniques (see following) to protect your spine and prevent back strain and injuries. \n\n
+
+Proper lifting technique includes the following: \n\n
+
+1. Always stand close to the weight or load in order to reduce excessive strain on your back muscles. Try to estimate which direction the load will move after lifting so that you can position your feet to allow for this movement without twisting the trunk of your body. \n\n
+
+2. Place on foot firmly alongside the load to be lifted, and the other just behind the object with your heels flat, in order to have a wider, more stable base from which to lift. \n\n
+
+3. Bend your knees and squat down. Keeping your back erect, grasp the load and use your leg muscles to lift the object. \n\n
+
+4. Make sure to grip the load firmly from underneath. Use you entire hand rather than just your fingers. Keep your arms straight using your shoulder muscles to help lift the weight. \n\n
+
+5. Stand and lift, straightening your legs gradually from a squatting to an erect position. Avoid jerking when you lift and setting down a load too quickly. \n\n
+
+6. Carry the load close to your body, as near as you are able to your own center of balance, keeping your back erect. \n\n
+
+7. Turning should only be done by using your whole frame, not just your trunk. Twisting places the load outside your center of balance and strains muscles not intended for lifting. \n\n
+
+8. To lower the load; reverse the lifting operation. With your back straight, bend your legs at the knees to a squat position, place the load down, withdraw your hands from the object, and stand up using the same method as lifting a load, using your legs and keeping your back straight. \n\n
+
+9. Only one person should give the directions for the team, whether it is two or more that are lifting and carrying a load. The load needs to be well balanced and distributed evenly. \n\n
+
+10. When you need to raise a load to shoulder height or higher, lift it first to about waist height, then rest one end of it on a ledge; if necessary, shift the position of you hands to accomplish this and push the load straight up. Reverse the process when lowering objects. \n\n
+
+11. Always keep your chip up while lifting, because your back is likely to be straighter and your ability to lift while avoiding back injury is greatly improved.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView25"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/fwork5" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop any activity or exercise that increases your pain, and for the first few days take the followings steps: \n\n
+
+1. Take an OTC pain reliver. \n\n
+
+2. Apply a covered cold pack to the area for five to ten minutes every hour during the first twenty-four to forty-eight hours. \n\n
+
+3. For continued pain after two days, use a heating pad on the area. \n\n
+
+4. Avoid best rest; keep moving, but protect your back from strain and sudden jarring movements. \n\n
+
+5. Seek medical care for intense pain or pain that continues for four to six weeks. Most incidents of back pain resolve in about one month."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView26"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            android:layout_marginTop="15dp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView25"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".FWork3">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Stress and Personal Safety \n in the Workplace"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="A little pressure is requisite for performance, but excessive pressure can lead to unhealthy levels of stress. A little stress gives you the energy and motivation to meet challenges, goals, and deadlines at work. Stress pushes you to achieve so that you accomplish things that result in feelings of satisfaction and happiness. But too much stress has negative impacts, such as exhaustion, frustration, dissatisfaction, and even mental and physical health problems, and eventually total burn out. \n\n
+
+Unrealistic demands in a job and insufficient control over job tasks and situations often lead to unhealthy amounts of stress. Job uncertainty, such as fear of layoff and increased demands for overtime, are also typical negative stressors. Feeling pressured or having little encouragement and praise at work can also lead to stress, burnout, and decreased job satisfaction. An accumulation of stressors has the potential to create negative and unhealthy stress. Stressors can result from factors such as degree of responsibility, conflicting job demands, and working too much or too little, which can lead to boredom. Pace and variety of work, personal feelings about the meaningfulness of work, level of autonomy, or the ability to make decisions about your job and tasks are factors that may contribute to stress.\n\n
+
+Environmental factors such as noise, light, room temperature, and air quality may add to physical problems as well as emotional stress. Shift work and work hours that can lead to sleep deprivation are often stressors that can lead to burnout."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/fwork6" />
+
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workplace stresses and degree of stress have a lot of variation, so strategies to reduce or prevent stress also have to be multifaceted. Environmental stressors like noise control, poor lighting, and ergonomics need to addressed, but it's up to you to report these stressors to your boss or management. If you feel you have too much responsibility and too little authority, are subject to unfair labor practices, or have an inadequate, undefined job description, you can address concerns by talking with your supervisors first and then your union or other organizations or grievance or personnel offices. Ask to have your job description clarified, and don't stay in a job that you hate and don't think you'll ever feel differently about. \n\n
+
+The old expression, 'Find a job you love and you'll never work another day in your life,' holds true. And while it may not be possible to change jobs, you can approach your supervisor with all of your concerns and about providing stress-management training; and you can take advantage of  your employee-assistance program (EAP) if available; this will improve your ability to cope with difficult work situations. In order to keep stress at bay, practice the following stress reduction techniques in your daily life: \n\n
+
+1. Get an adequate amount of sleep (make sleep a priority). \n\n
+
+2. Develop a support system to share your feelings and get validation and support. \n\n
+
+3. Maintain a regular exercise program. \n\n
+
+4. Eat a nutritious and balanced diet. \n\n
+
+5. Reduce or eliminate caffeine and sugar. \n\n
+
+6. Don't use alcohol or drugs to self-medicate. \n\n
+
+        7. Set aside some 'Me' time every day.
+        "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/fwork7" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Burnout is a state of extreme emotional and physical exhaustion caused by prolonged and excessive stress over time. It may occur after feeling overwhelmed and unable to meet continual and constant demands. As the stressors continue, a person will begin to lose any interest or motivation that first brought them to pursue their job or take on their current role. Burnout reduces productivity radically, causes feelings of fatigue and apathy, and increasingly powerless, hopeless, cynical, and resentful. \n\n
+
+Burnout can eventually threaten your job, your health, and your relationships. You are usually aware of being under a lot of stress, but you may not always notice burnout when it happens. Burnout's roots are in excessive stress, and it's a gradual process, so learn to recognize symptoms and address them early on. Signs and symptoms of burnout include: \n\n
+
+ - Feelings of frustrations and powerlessness \n\n
+ - Hopelessness \n\n
+ - Being emotionally drained \n\n
+ - Detachment, isolation, and withdrawal (both at work and at home) \n\n
+ - Feeling trapped \n\n
+ - Feelings of failure \n\n
+ - Irritability \n\n
+ - Sadness \n\n
+ - Cynicism \n\n
+
+ Many of the stress-prevention techniques outlined previously can also help prevent burnout. But the best way to head off job burnout is to change what you are doing, whether that means changing careers or jobs in your workplace. If neither of these is an option for you, there are still a number of steps you can take to recover from burnout, including talking to your employer about clarifying your job description. You may be unrealistically overextended or doing work you didn't sign on for and are not getting paid for. Request a transfer to another department, or ask for new or more varied duties.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:layout_marginTop="10dp"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

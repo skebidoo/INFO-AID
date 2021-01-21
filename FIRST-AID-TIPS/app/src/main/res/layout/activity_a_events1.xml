@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".AEvents1">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Burns"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="	One of the most common and most painful injuries is a burn injury. Burns are caused by extreme heat (both wet and dry), chemicals, electricity, radiation, and even extreme cold. They can affect the skin, eyes, lungs, and other internal organs. The severity of a burn is generally classified in one of three categories, based on the depth of the burn and damage. \n\n
+
+1.	First-degree burns (usually referred to as superficial burns) involve only the outermost layer of skin, called the epidermis. If treated quickly and blisters do not form, first degree burns usually heal very well. Sunburns are a common form of first-degree burns.\n\n
+
+2.	Second-degree burns (usually referred to as partial thickness burns) are more serious because a deeper layer of skin is affected and because they are easily infected. Second-degree burns are the most painful because more tissue is damaged, but the nerve endings are more preserved. These burns heal well and don’t require medical attention unless they are larger than two or three inches in diameter or they occur on the hands, face buttocks, penis, or vaginal area.\n\n
+
+3.	Third-degree burns (usually referred to as full-thickness burns) are the most serious burns, involving all of the layers of the skin. In third-degree burns, the skin may appear white, black, and or leathery-looking and there may be very little pain, although the areas surrounding the burn might be extremely painful. All third-degree burns require a medical treatment. Call emergency number for emergency rescue transport or take the person to the nearest emergency room.\n\n
+
+
+Never apply adhesive dressings or any lotions, ointments, or creams to a first or second degree burn that you are treating at home unless the skin is broken. For any broken blisters wash carefully with antibacterial soap and tepid water, apply antibiotic ointment, and re-bandage.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/aevents1" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="	For all burns, if you are unsure of the seriousness call emergency number or go to an emergency department. All burns on children, as well as ay of the following, need to be seen by a doctor. \n\n
+ - Third-degree burns. \n
+ - Second-degree burns larger than an area the size of the palm of your hand. \n
+ - First-degree burns larger than a five-palm-sized area. \n
+ - Burns that extend all the way around an arm or leg. \n
+ - Any “mixed” pattern of varying degrees of burns. \n
+ - Burns to the genital area, face, hands, or feet. \n
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/aevents2" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Any burned person who is experiencing dizziness or confusion, weakness, fever or chills, or shivering needs immediate medical attention. For serious burns, always calls emergency numbers first, and then perform the following steps, remembering to stay safe, assess the situation, and use universal precautions if you are able to: \n\n
+
+1.	Extinguish the cause of the burn if you are able to with water or by wrapping the injured person in a heavy towel, coat or blanket and rolling them on the ground. Make sure none of the smoldering materials are in contact with the injured person, but don’t remove any burnt clothing. \n\n
+2.	Check for ABC’s as outlined in Chapter 2, clear the airway if necessary, and begin CPR.\n\n
+3.	Cool the burned area with running water as outlined for treatment of minor burns, being careful not to overcool the injured person.\n\n
+4.	Wait for help to arrive, or if transporting the person yourself, cover the burned area with a dry sterile bandage or a clean non fibrous cloth such as a sheet, not a blanket or towel, as fibers may stick to injured tissues. Don’t apply ointments, creams, or lotions, and don’t break any blisters.\n\n
+
+	Second-degree burns that are two inches or larger in diameter and all third-degree burns require emergency medical assistance.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28"
+            app:layout_constraintVertical_bias="0.017"
+            app:srcCompat="@drawable/aevents3" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chemical burns are always serious, and can be a life threatening. Remember all the personal safety in all first aid situations is of utmost importance. After determining safety measures: \n\n
+
+1.	Remove the person from the scene if necessary, taking steps not to become exposed to toxic fumes or liquids that are present.\n\n
+2.	Seal any open chemicals containers and ventilate the area.\n\n
+3.	Call emergency number and the Poison Control Center immediately.\n\n
+
+Chemical burns usually develop much more slowly than heat-related burns, but the first-aid treatment is similar. The first symptoms are typically intense stinging pain followed by blistering, peeling, swelling, and/or discoloration of the burn site.\n\n
+
+1.	Remove any articles of the person’s clothing that might have become contaminated.\n\n
+2.	Brush away any dry chemicals left on the body, and immediately begin pouring cold water into the burn continually for at least twenty minutes or until help arrives.\n\n
+3.	If you have any disposable rubber gloves, use them to prevent contaminating yourself and try not to let the contaminated water you’re pouring pool on or around the person or yourself.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView25"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView29"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/aevents4" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chemical eye burns can severely or permanently damage or destroy the eye. As with other chemical burns, wear gloves and try to prevent splashing more chemical on the person or yourself. Don’t attempt (or let the injured person attempt) to touch the eye or to remove a contact lens that seems stuck to the eye. \n\n
+
+1.	Begin washing your eye as and continue for at least ten minutes. In work settings, go to the emergency eyewash or shower station, use sterile isotonic saline solution, or if not available, use cold tap water. At home, get into the shower immediately with your clothes on in order to wash out your eye.\n\n
+
+2.	Attempt to keep your eyes as wide open as possible while using running water or eye solution to rinse them out.\n\n
+
+3.	For any alkali or hydrofluoric-acid burns continue washing until help arrives or you are taken to an emergency department.\n\n
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView26"
+            app:layout_constraintVertical_bias="0.017" />
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:layout_marginTop="10dp"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

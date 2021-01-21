@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".CConditions2">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="390dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/header" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Febrile Seizures"
+            android:textColor="#FF0000"
+            android:textSize="30sp"
+            android:typeface="monospace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Febrile seizures (convulsions) occur in children, usually due to a sudden high spike in body temperature from an infection. These seizures usually last just a few minutes, but are often startling and frightening to parents. Although they seem scary and dangerous, this type of seizure is often harmless and isn’t a sign of a long-term or chronic problem. Many times, the seizure occurs before an illness and fever are even recognized. Febrile seizures occur in 2-4 percent of children age six months to five years. Although fairly common and usually benign, you should seek medical attention for any febrile seizure, particularly for any necessary treatment of the underlying cause for the fever. For children prone to febrile seizures, treat fevers early to try to prevent them."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/cconditions4" />
+
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The signs and symptoms of a febrile seizure range from rolling of the eyes to severe shaking or tightening of the muscles. Fever is typically higher than 120°F with other signs including loss of consciousness, shaking or jerking of both arms and both legs, eyes rolling back in the head, trouble breathing, spontaneous urination, vomiting, and crying, or moaning. Simple febrile seizures are the most common, usually lasting from a few seconds to fifteen minutes and stopping on their own. Take the following steps for febrile seizures: \n\n
+
+1.	Clear the area of any hard or sharp objects. \n\n
+
+2.	Lay the child down gently in a soft surface (bed, carpet), turn him on his side in order to keep the air way to open, and to protect the airway in case of vomiting, place a folded jacket or pillow under his head. \n\n
+
+3.	Loosen any tight or restrictive clothing and remove any glasses. \n\n
+
+4.	Glance at you watch or a clock in order to try to time the seizure, and try to be aware of signs such as what body part is moving or twitching so that you can report this information to your doctor. \n\n
+
+5.	Call emergency number for febrile seizures lasting longer than five minutes, for two or more seizures, a seizure accompanied by vomiting, or problems with breathing or extreme sleepiness after a seizure. \n\n
+
+6.	Reassure the child when he regains consciousness, and follow up with a call or visit to your doctor. \n\n
+
+Don’t: \n\n
+
+1.	Try to hold the tongue or put anything in the mouth. \n\n
+
+2.	Try to restrain the child; instead, turn his head to the side so that the airway does not become obstructed by his tongue or with any vomiting. \n\n
+
+3.	Attempt to bring a fever down during a seizure by trying to give the child fever medications or anything to drink, and don’t put the child in a bath. \n\n
+
+When a child arouses, they may cry, seem confused, or be sleepy. The severely of the seizure doesn’t necessarily correlate with the degree of the fever. Many children are up and running around within one to two hours of a febrile seizure. Nonetheless, have all first-time febrile seizures checked out by your doctor, no matter how short they last or how well your child seems afterward.
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="121dp"
+            android:layout_height="47dp"
+            android:background="@color/design_default_color_error"
+            android:text="BACK"
+            android:layout_marginTop="15dp"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            app:backgroundTint="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
