@@ -45,6 +45,7 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="According to the AHA, CPR is not a single skill, but a series of assessments and interventions, and cardiac arrest is not just one problem, so the steps of CPR will vary depending on the type or cause of the arrest. For the purposes of this book, only lay-rescuer techniques and methods will be reviewed. It's worthy to note that lay rescuers are no longer taught to check for pulse or signs of circulation or taught to provide rescue breathing without chest compressions for an unresponsive person. Take the following steps when you witness anyone over the age of one-year-old collapse: \n\n
 
 1. Assess that it is safe to approach the fallen person. \n
@@ -85,6 +86,7 @@ The steps for performing CPR are: \n \n
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="The AHA now recommends that a series of thirty compressions followed by two breaths (compressionventilation ratio of 30:2) be give to all persons, regardless of age. Continue the cycle of compressions and rescue breathing until professional help arrives or until the person recovers and begins breathing. In children age one to eight, use one or two hands as necessary to compress the chest one-third to one-half the depth of the chest. For the unresponsive infant or child, perform five cycles of thirty compressions and two breaths for about two minutes before leaving the child to call emergency number and get an AED if one is available."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -108,6 +110,7 @@ The steps for performing CPR are: \n \n
             android:id="@+id/textView28"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Newborn CPR has different recommendations than those for infants. But the recommendations for newborn CPR only apply to newborns in the first hours after birth until the newborn leaves the hospital, so the general public needs only to be concerned with infant CPR guidelines that apply to babies less than approximately one year of age. The rescue-breathing rate for infants with pulses is about forty to sixty breaths per minute, with chest compressions and thirty ventilations per minute. Compress the infant chest just below the nipple line (on lower half of sternum) using two fingers (rather than a whole hand) to compress the chest with a compression-ventilation ratio of 30:2."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

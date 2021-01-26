@@ -46,6 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Biking is fun in any age, but requires some planning and prevention because bike accidents are too common. \n\n
 
 -	Wear protective clothing including helmets to prevent significant injuries, including fatal head injuries. \n\n

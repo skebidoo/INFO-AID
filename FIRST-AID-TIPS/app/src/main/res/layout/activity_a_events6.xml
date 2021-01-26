@@ -45,6 +45,8 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Abdominal pain is felt in many different ways including but not limited to burning, cramping, stabbing, throbbing, spasms, and sharp in the area below the ribs, above the pelvic bone, and around the flanks on each side. Pain in this area can arise from skin and abdominal-wall muscles but abdominal pain generally describes pain that comes from organs with the abdomen including the stomach, large and small intestines, appendix, colon, liver, gallbladder and pancreas. Sometimes pain that is felt in the abdomen is really coming from the lower lungs, the kidneys, and the uterus or ovaries and is called ‘referred’ pain. \n\n
 
 Abdominal pain is caused by inflammation, stretching or swelling of an organ, or by the loss of the supply of blood to an organ. But abdominal pain can also occur without any of these causes, such as in irritable bowel syndrome (IBS). IBS is not well understood but it may be due to abnormal contractions of the intestinal muscles (spasms) or abnormally sensitive nerves within the intestines that caused pain. Some abdominal pain is considered an emergency, such as appendicitis, or it may be more chronic but serious condition such as diverticulitis or colitis. All abdominal pain may be serious and life threatening and needs to be evaluated by your doctor.\n\n
@@ -98,10 +100,10 @@ After you have spoken to or been examined by your doctor, continue to monitor yo
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Abdominal pain may be a sign of serious illness and can cause severe pain. You may need to describe your pain to your doctor. An easy way to think of this is that 0 is no pain and 10 is pain so severe you are crying and your face is distorted in a grimace. \n\n
 
 Describe the pain as sharp or dull, burning or pressure like, jabbing and fleeting, steady and unrelenting or cramp like. Be sure to note any fever, chills, sweats, rectal bleeding, loss of appetite, diarrhea, weight loss, constipation, nausea, or loss of energy. Treat minor pain with:\n\n
-
 -	Rest \n
 -	A heating pad or soaking in a tub of warm water\n
 -	OTC antacids and pain relievers (but avoid aspirin or ibuprofen, as these drugs can make some types of stomach pain and condition worse)\n

@@ -15,7 +15,7 @@
 
 
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/button13"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="121dp"
             android:layout_height="47dp"
@@ -62,6 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="A puncture wound is a small but deep hole caused by such things as fangs, pins, sticks, staples, nails, or any object capable of penetrating the skin deeply. Puncture wounds don't usually bleed a lot, but can cause internal injury, and it's difficult to estimate how deep the wound may be."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -86,6 +87,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Always assume that a puncture wound is dirty. To treat minor wounds: \n\n
 
 1. Wash your hands with soap and water and wear gloves. \n

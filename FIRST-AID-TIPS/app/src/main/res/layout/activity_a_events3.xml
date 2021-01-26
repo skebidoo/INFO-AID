@@ -45,6 +45,8 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="When person comes into accidental contact with an electrical energy source, an electric shock occurs that may cause injury ranging from a burn to devastating damage or death. A person who was suffered an electric shock may have very obvious severe burns or may have a little to no external evidence of injury. An electrical shock has the potential to cause a cardiac arrest. A brief low-voltage shock that doesn’t cause any symptoms or burns of the skin doesn’t require care or treatment, but for all high-voltage shocks or shocks that cause burns, go immediately to an emergency department. Children who experience electric-cord burns to the mouth need to be seen by a doctor immediately. For all critical injuries, call emergency number and proceed with emergency management as outlined in emergency response menu."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -62,12 +64,13 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView26"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/aevents5" />
+            app:srcCompat="@drawable/aevents7" />
 
         <TextView
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Electrical burns are caused when current runs through a person’s body. Typically, there will be only small area burns at both the entry and exit burns. There may be swelling and charring at both points. \n\n
 
 1.	Call emergency number immediately.\n\n
@@ -93,7 +96,7 @@ Never approach a person with a suspected electrical burn until you are sure that
             android:layout_height="47dp"
             android:background="@color/design_default_color_error"
             android:text="BACK"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:textColorLink="#FFFFFF"
             android:textSize="15sp"
             app:backgroundTint="#FF0000"

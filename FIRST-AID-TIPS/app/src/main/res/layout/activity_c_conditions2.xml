@@ -47,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Febrile seizures (convulsions) occur in children, usually due to a sudden high spike in body temperature from an infection. These seizures usually last just a few minutes, but are often startling and frightening to parents. Although they seem scary and dangerous, this type of seizure is often harmless and isn’t a sign of a long-term or chronic problem. Many times, the seizure occurs before an illness and fever are even recognized. Febrile seizures occur in 2-4 percent of children age six months to five years. Although fairly common and usually benign, you should seek medical attention for any febrile seizure, particularly for any necessary treatment of the underlying cause for the fever. For children prone to febrile seizures, treat fevers early to try to prevent them."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -72,6 +73,7 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="The signs and symptoms of a febrile seizure range from rolling of the eyes to severe shaking or tightening of the muscles. Fever is typically higher than 120°F with other signs including loss of consciousness, shaking or jerking of both arms and both legs, eyes rolling back in the head, trouble breathing, spontaneous urination, vomiting, and crying, or moaning. Simple febrile seizures are the most common, usually lasting from a few seconds to fifteen minutes and stopping on their own. Take the following steps for febrile seizures: \n\n
 
 1.	Clear the area of any hard or sharp objects. \n\n

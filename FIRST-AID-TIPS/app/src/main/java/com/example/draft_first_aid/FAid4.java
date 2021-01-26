@@ -14,6 +14,10 @@ public class FAid4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_f_aid4);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+
         backButton = findViewById(R.id.button9);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override

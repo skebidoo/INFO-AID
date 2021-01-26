@@ -47,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Nosebleed are often dramatic and frightening, but usually not serious, and are dealt with easily. The two types of nosebleeds are classified by whether the bleeding is coming from the front nose (anterior), accounting for 90 percent of all nosebleeds, or the back of the nose (posterior). Anterior nosebleeds are easily controlled at home or by a doctor. Posterior nosebleeds tend to occur more often in elderly people and are more complicated, often requiring hospital admission and management in the ear, nose, and the throat specialist. The majority of the people will experience a nosebleed at some time in their life, but they are most common in children age two to ten and adults age fifty to eighty. Nosebleeds tend to occur I the morning hours in dry, cold climates and during the winter. \n\n
 
 Most nosebleed are due to some identifiable factor such as allergies, blunt trauma to the nose, trauma inside the nose from such things as nose picking or irritation from a cold or cocaine use, and dry nasal passages from clot: are taking blood-thinning medications or aspirin: have liver disease, abnormal blood vessels or cancers int the nose, you may also experience nosebleed, but won’t likely be the only cause.
@@ -74,6 +75,7 @@ Most nosebleed are due to some identifiable factor such as allergies, blunt trau
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="If you experience a nosebleed, follow the steps below: \n\n
 
 1.	Remain calm and sit up straight, leaning your head forward-don’t tilt your head back because blood will run down your throat, causing you to gag and swallow the blood. \n\n

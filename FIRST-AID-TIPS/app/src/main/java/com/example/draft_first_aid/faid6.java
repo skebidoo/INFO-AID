@@ -13,6 +13,10 @@ public class faid6 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_faid6);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+
         backButton = findViewById(R.id.button10);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override

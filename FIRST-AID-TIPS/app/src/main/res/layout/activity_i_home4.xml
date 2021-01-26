@@ -62,6 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Accidental tooth loss is more common than you might think, so you may want to consider adding a tooth-preservation kit to your first-aid supplies. These kits can be found easily at most pharmacies. Cavities or infections may lead to toothaches and require a visit to the dentist, and in most cases, the sooner the better.
 "
             app:layout_constraintBottom_toBottomOf="parent"
@@ -86,6 +87,7 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="A knocked-out or partially dislodged tooth can usually be reinserted in the socket within thirty minutes of an injury. Adults should hold the tooth in place with clean gauze, trying not to touch the root of the tooth. You may handle the tooth with a sterile gauze or pad and rinse it with water if it has become very dirty, but it is best not to clean a dislodged tooth. If you are not able to hold the tooth in place for any reason or you cannot reach a dentist or emergency room within thirty minutes, the tooth may be placed in a container with fresh whole milk or the person's own saliva for transport. For an empty bleeding socket, place a fold of sterile gauze or pad over the socket and bite down on it. Maintain this pressure for twenty minutes or until bleeding stops."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -123,6 +125,7 @@
             android:id="@+id/textView29"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Rinse the mouth with water and cover the broken tooth with a sterile gauze pad. Hold a cold pack against the face to reduce pain and swelling. Keep the broken portion and call your dentist, as the dentist may be able to reattach it. Do not eat or drink anything before receiving dental care.
 
 "
@@ -146,11 +149,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="If your tooth starts to become sensitive to cold or heat and progresses in level of pain, it's an indication that there may be gum disease or a problem related to the nerve inside the tooth. Sensitive teeth can be treated daily using a toothpaste that is designed for sensitive teeth, but if you really have a toothache you need to see a dentist. \n\n
 
- - In the early stages of a toothache, astringent mouthwashes are antiseptic and help to shrink swollen tissue. \n
- - Use a cold pack on the face and take aspirin, ibuprofen, or acetaminophen for pain and swelling. (Remember, never give aspirin to children younger than sixteen due to the risk of a life-threatening condition called Reye's syndrome.)  \n
- - Rub ice on your hands. According to a Canadian study, rubbing an ice cube on your hands kills tooth pain because the cold, rubbing sensation travels the same pathway to the brain as tooth pain, and overrides the signals from your mouth about half of the time. Try wrapping a cube and rubbing it where the bones of your thumb and index finger meet.  \n
+ - In the early stages of a toothache, astringent mouthwashes are antiseptic and help to shrink swollen tissue. \n\n
+ - Use a cold pack on the face and take aspirin, ibuprofen, or acetaminophen for pain and swelling. (Remember, never give aspirin to children younger than sixteen due to the risk of a life-threatening condition called Reye's syndrome.)  \n\n
+ - Rub ice on your hands. According to a Canadian study, rubbing an ice cube on your hands kills tooth pain because the cold, rubbing sensation travels the same pathway to the brain as tooth pain, and overrides the signals from your mouth about half of the time. Try wrapping a cube and rubbing it where the bones of your thumb and index finger meet.  \n\n
  - See a dentist if the pain persists. An abscessed tooth with swelling and inflammation that is progressing from your tooth to other parts of your face is life threatening and needs immediate medical or dental care."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

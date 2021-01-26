@@ -45,12 +45,12 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="You can almost always identify external bleeding, but internal bleeding is more difficult to detect and to treat. Losing blood inside the body may lead to insufficient blood flow to the tissues and organs, and dangerously low or loos of blood pressure due to insufficient volume of blood or plasma, called hypovolemic shock, which will result in death if untreated. \n\n
 
 Internal bleeding can be the result of such things as motor-vehicle accidents and domestic violence, causing internal trauma and fractures; bleeding duodenal or gastric ulcers; brain hemorrhage; and ectopic pregnancy (pregnancy occurring outside the uterus that is life threatening and require immediate medical attention). Severe internal bleeding is usually caused by a blunt trauma, a violent force such as in motor-vehicle accidents, or from puncture wound such as knife or gunshot wounds. Whenever sighs of shock are present, you must suspect internal bleeding. \n\n
 
 The more common signs of internal bleeding damage are:\n\n
-
 -	Bruises (contusions), which may indicate deeper damage \n
 -	Anxiety and restlessness\n
 -	Excessive thirst\n
@@ -87,6 +87,7 @@ The more common signs of internal bleeding damage are:\n\n
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Use the following steps to treat internal bleeding: \n\n
 
 1.	Apply a cold pack or ice pack covered with a cloth to bruises in order to reduce pain and swelling.\n\n

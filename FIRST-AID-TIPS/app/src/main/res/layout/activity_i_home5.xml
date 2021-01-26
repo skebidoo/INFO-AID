@@ -62,6 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="When a person has diabetes, her body doesn't produce and properly use insulin, the hormone required by the body to convert sugar, starches, and other food into energy. Prolonged blood-sugar extremes in diabetics can cause loss of consciousness known as a diabetic coma."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -85,6 +86,7 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Symptoms of high blood sugar or low blood sugar often appear gradually and some or all of the following symptoms can signal the onset of a diabetic coma: \n\n
 
  - Fruity-smelling breath \n
@@ -124,6 +126,7 @@
             android:id="@+id/textView29"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="In the cases of hypoglycemia or hyperglycemia, take the following steps: \n\n
 
 1. If you know the person is diabetic, or if you find a Medic Alert bracelet stating the person is diabetic, ask if she has taken her required insulin. If she has not or you are unsure, call emergency number for help. \n\n

@@ -46,6 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="There are three critical steps in emergency first aid. A person needs all three common denominators to live, and basic life support or CPR, together with early defibrillation, is proven to improve long-term survival after a cardiac arrest. While this book outlines the basic steps for cardiopulmonary resuscitation, it should be used for an introduction and followed by formal training and exercises. You can find CPR and first-ad classes by calling the American Heart Association or the American Red Cross. \n\n
 
 The ABCs of first aid is a mnemonic that stands for airway, breathing, and circulation: \n\n

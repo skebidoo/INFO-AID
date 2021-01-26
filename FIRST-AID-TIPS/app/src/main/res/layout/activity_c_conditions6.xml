@@ -47,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Croup is a type of laryngitis in children, and is associated with a seal-bark cough and difficulty inhaling by swelling of the voice box (larynx) and wild pipe (trachea). Croup is usually the result of a virus, but can also be caused by allergies, bacteria, or inhaled irritants. Croup is most common in children ages six months to three year, although children can get croup at any age. Croup is common during the months of October through March. Most cases today are not serious, but severe cases might require hospitalization. \n\n
 
 Symptoms of croup are a very hoarse, deep, seal-bark type cough appearing after several days of cold symptoms that is usually worse at night. As croup continues, a child may have labored breathing, a high-pitched squawking or crowing noise on inhalation, and in a low fever. Croup is usually worst the first two or three nights, resolving in a week or so. Vaccines for measles, Haemophilus infuenzae (Hib), and diphtheria protect children against the more dangerous forms of croup.
@@ -75,6 +76,7 @@ Symptoms of croup are a very hoarse, deep, seal-bark type cough appearing after 
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Moist of cold air helps reduce the swelling of the airways. This can be done at home in the following way: \n\n
 
 1.	Turn the hot water on in the shower or tub of a bathroom and shut the door. \n\n

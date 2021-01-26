@@ -18,6 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="10dp"
+            android:textColor="@color/black"
             android:text="Use a container with a strong handle that can be closed securely, and clearly mark it FIRST-AID KIT. Commercial kits can be purchased from many sources, but any large, well-build plastic fishing-tackle box or toolbox work great, and is usually much cheaper.
 
 \n\nIdeally, you want your kit to be light enough to carry, but large enough to hold all necessary items in an organized and easily accessible format. It should be dust proof, waterproof, and sturdy enough to resist damage from falling or crushing."
@@ -61,6 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="In order to properly administer first aid, you will need a good first-aid kit. The better stocked and organized your first-aid kit is, the more likely you are to effectively respond to emergencies in your home. Keep a written list of kit supplies in your home, along with your emergency plan, and be sure to restock the kit as needed and replace items with expired dates, items that have been used, or anything with an open package or broken seal that is support to be sterile. Keep a first-aid manual like this one with your kit, along with your list of emergency phone numbers, your list or chart of family's medical conditions and medications, and a flashlight."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -113,6 +115,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="10dp"
+            android:textColor="@color/black"
             android:text="Store your kit safely in a cool, dry location inside your home. Avoid storing it in the garage or laundry room because of the potential harm to its contents from moisture and temperature extremes. Pick a location in your home that is central and accessible to everyone who will be using the kit."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -138,6 +141,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="10dp"
+            android:textColor="@color/black"
             android:text="The ideal kit that will prepare you for most injuries and household emergencies should include the following items: \n\n
 
 - Benadryl (generic Diphenhydramine) \n
@@ -166,7 +170,7 @@ Your kit should also contain bandages and dressing supplies including:  \n \n
  - Regular adhesive bandages ( multiple sizes ) \n
  - Adhesive tape ( waterproof and stretchable ) \n
  - Triangular bandages \n
- - Large foil-lined bandage \n
+ - Large foil-lined bandage \n\n
 
 Additionally you should include tools and other items such as : \n \n
 

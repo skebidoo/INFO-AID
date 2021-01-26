@@ -45,6 +45,7 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Stroke are a medical emergency and need immediate treatment because when blood flaw to your brain stops for any reason, brain cells begin to die within a matter of minutes. The more common type of stroke is called ischemic stroke and occurs when a blood clot from any part of your body travels to blocks a blood vessel in the brain that breaks and bleeds into the brain. Transient ischemic attacks (TIA), or mini strokes, happen when the blood supply to brain is briefly interrupted, usually for a period of about one minute but less than five minutes, and don’t cause injury to the brain, due to the short duration. TIA is an important predictor of stroke. \n\n
 The warning signs of TIA or stroke are all sudden include: \n\n
 -	Numbness or weakness of the face, arm, or leg, particularly on just one side if the body\n
@@ -78,6 +79,7 @@ The warning signs of TIA or stroke are all sudden include: \n\n
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="For any symptoms call emergency number immediately as prompt medical attention can prevent a fatal or disabling stroke form occurring. Then do the following: \n\n
 1.	Check for ABC’s and start CPR if necessary.\n\n
 2.	Place unconscious person in the recovery position as outlined in Emergency Response men.\n\n

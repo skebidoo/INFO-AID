@@ -45,8 +45,8 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Drug overdoses happen when more medication is taken in higher doses or frequency the body can metabolize. Some overdoses are accidents and some are intentional. Mixing prescription medication with street drugs and alcohol can also result in overdose. Depending on the drugs taken, symptoms of overdose include: \n\n
-
 -	Slurred speech \n
 -	Abnormal breathing (slow of fast) \n
 -	Loss of coordination  \n
@@ -81,8 +81,8 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="If you think someone is having a drug overdose, perform the following first aid: \n\n
-
 1.	Check for ABCs and start CPR if necessary. \n\n
 2.	Manage for shocks and seizures. \n\n
 3.	Place unconscious person in the recovery position. \n\n

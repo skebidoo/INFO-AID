@@ -46,6 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Halloween is a time-honored tradition, but also one that brings a lot of excitement and sometimes lack of carefulness. Most Halloween accidents happen from falls and pedestrian-versus-car crashes. A little foresight can make this night much safer for everyone. Motorist need to take special care to be alert on Halloween and to watch for children who may be darting out from between cars and running across streets. Children in may be places you least expect them, such as walking on roadways, medians, and jumping off curbs, so you need to take care when exiting and entering driveways, roads, and alleys. Keep an eye out for children in dark clothing the entire evening. Some other Halloween tips include: \n\n
 
 -	All children under age twelve need to have an adult or an older, responsible youth supervising them while they go door to door. \n\n

@@ -46,8 +46,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="gents are mostly viruses, bacteria, and parasites. Toxic agents include such things as poisonous mushrooms, pesticides on fruits and vegetables, and improperly prepared exotic foods. Most food-poisoning cases where specific contaminant is found are caused by viruses and bacteria. Toxic agents don't cause food poisoning as often as infectious agents do, and are usually related to an isolated episode caused by poor food preparation or something like picking wild mushrooms. When eaten, pesticides such as those found on unwashed vegetables or fruits may cause mild to severe illness with symptoms of weakness, increased salivations, blurred vision, headache, cramps, diarrhea, and shaking of the arms and legs. In recent years, some foods have been recalled by manufacturers due to contamination that has caused illnesses and even deaths."
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="@color/black"
+            android:text="Any activity involving food has the potential to create food poisoning or food-borne illness. Wash your hands before you start to cook or work in the kitchen and keep all food-preparation surfaces clean, using separate cutting boards for separate jobs so that you don't cross contaminate. Always wash fresh food before chopping, cutting, or eating it. When you are handling meats, follow the directions on the package labels. If you question the freshness of food in your refrigerator, then throw it out. \n\n
+
+Food poisoning has two main categories: infective agents and toxic agents. Infective agents are mostly viruses, bacteria, and parasites. Toxic agents include such things as poisonous mushrooms, pesticides on fruits and vegetables, and improperly prepared exotic foods. Most food-poisoning cases where specific contaminant is found are caused by viruses and bacteria. Toxic agents don't cause food poisoning as often as infectious agents do, and are usually related to an isolated episode caused by poor food preparation or something like picking wild mushrooms. When eaten, pesticides such as those found on unwashed vegetables or fruits may cause mild to severe illness with symptoms of weakness, increased salivations, blurred vision, headache, cramps, diarrhea, and shaking of the arms and legs. In recent years, some foods have been recalled by manufacturers due to contamination that has caused illnesses and even deaths." app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.8"
             app:layout_constraintStart_toStartOf="parent"
@@ -69,6 +71,7 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Use the following guidelines for treating food poisoning: \n\n
 
  - Anyone who is experiencing short episodes of vomiting and small amounts of diarrhea that last less than twenty-four hours can be cared for at home by abstaining from solid food during the nausea and vomiting phase and drinking plenty of fluids, ideally clear liquids.\n\n

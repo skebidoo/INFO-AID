@@ -47,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Sore throats are usually caused by viruses that cause colds or other upper respiratory illness, or bacteria, as in strep throat. Sore throats may also be caused by chemical in such things as cigarette smoke, a scrape from something going down your throat the wrong way, allergies, postnasal drip, and sometimes cancer. Symptoms of sore throat are usually also felt throughout the body because they are present with either a viral or bacteria infection, and include fever, headache, nausea, and malaise. Signs of sore throat include pus on the surface of the tonsils, redness of the back of the throat, tender neck glands (inflamed lymph nodes), drooling and spitting due to painful swallowing, difficulty breathing, and little red blisters in the oral cavity."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -72,6 +73,7 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="The top priority for treating a sore throat is to relieve pain. This can be done in the following ways: \n\n
 
 1.	Gargle with warm salt water. \n\n

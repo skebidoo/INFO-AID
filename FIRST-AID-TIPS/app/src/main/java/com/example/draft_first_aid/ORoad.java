@@ -19,7 +19,9 @@ public class ORoad extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_o_road);
-
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
         FResponder = findViewById(R.id.textView11);
         KCar = findViewById(R.id.textView12);
         GState = findViewById(R.id.textView13);

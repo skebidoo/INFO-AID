@@ -45,6 +45,8 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Although sun poisoning is rarely fatal, sunburn hurts, can be disabling, and increases your risk in skin cancer. Sunburn is a burn in your skin caused by Ultraviolet (UV) radiation that results in inflammation of the skin, also causing premature aging of the skin and wrinkles. Even with limited exposure to the sun, any recent exposure and prior sunburn increase your risk, although normal limited exposure to UV radiation produces beneficial vitamin D in the skin."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -68,13 +70,14 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Prevent sunburn before it starts by getting out of the sun, covering exposed skin, staying out of tanning beds, and use sunscreens with a high SPF (Sun Protection Factor). SPF indicates the time it takes to produce a skin reaction on protected and unprotected skin. For example, SPF 30, in theory, allows you to be exposed thirty times longer than without sunscreen. But this is not true in practice, as there is a limit to amount of sun exposure without sun damage even if applying sunscreen regularly, and people seldom apply it adequately and properly. \n\n
--	Use OTC pain relievers for any discomfort. \n
--	For mild sunburn, use cool compress with equal parts milk and water, or a cold compress with Burrows Solution., which you can buy at a drugstore and use as directed.\n
--	Moisturized with aloe-based lotions, or use juices from an aloe plant.\n
--	Take cool (not ice-cold) baths, but avoid bath salt, oils and perfumes to prevent sensitivity reactions.\n
--	Don’t scrub or shave the skin or use lotions with topical anesthetic medications, because you can become sensitized and allergic to the medicine.\n
--	Stay out of the sun while you are healing, and drink plenty of fluids.\n
+-	Use OTC pain relievers for any discomfort. \n\n
+-	For mild sunburn, use cool compress with equal parts milk and water, or a cold compress with Burrows Solution., which you can buy at a drugstore and use as directed.\n\n
+-	Moisturized with aloe-based lotions, or use juices from an aloe plant.\n\n
+-	Take cool (not ice-cold) baths, but avoid bath salt, oils and perfumes to prevent sensitivity reactions.\n\n
+-	Don’t scrub or shave the skin or use lotions with topical anesthetic medications, because you can become sensitized and allergic to the medicine.\n\n
+-	Stay out of the sun while you are healing, and drink plenty of fluids.\n\n
 -	See your doctor for any severe blistering or you are dehydrated or suffering from heat stress.\n
 "
             app:layout_constraintBottom_toBottomOf="parent"

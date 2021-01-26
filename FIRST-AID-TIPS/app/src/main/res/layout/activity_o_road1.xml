@@ -46,6 +46,7 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="The first step to take at an accident of any kind is to stop, take a few deep breaths, and perform a complete 360-degree sweep of the accident scene and your surroundings. Remember, your safety issues before you proceed. Keep yourself safe by following these steps: \n\n
 
 1.	Park your vehicle in a safe spot that’s out of the way of any other moving vehicles, being careful to not to block traffic. \n\n
@@ -82,6 +83,7 @@ Do not run across any busy traffic lanes; you will not be able to help if you al
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="The next steps should be: \n\n
 
 1.	Bring the first-aid kit from your vehicle and quickly but carefully approach the scene while scanning and assessing. \n\n
@@ -132,6 +134,7 @@ if you have not been able to call emergency number, ask someone else to call or 
             android:id="@+id/textView22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="In order to remain safe, you must stay at least fifteen yards away from any downed power lines and always assume that they are live. Power lines that are touching any objects may also charge that object, and you may receive a fatal shock just being too close. Stop immediately if you feel any tingling sensations, put your feet together, and hop or shuffle away from the area, being very careful not to touch anything. \n\n
 
 If a vehicle is on his side and is unstable try to stabilize it, but only if it’s necessary for your safety and/or the safety of those injured. Instruct everyone in the area not to smoke. If you are able to reach inside safely, turn off ignition switches and apply emergency brakes. If hood is accessible and there is no indication of fire, carefully open the hood and remove the battery cable if you can. \n\n
@@ -160,6 +163,7 @@ It’s very important if you never move an injured person unless you feel they w
             android:id="@+id/textView29"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="One of the most important things you can do for an injured person is to reassure them and give them the impression that you are calm, even if you don’t really feel that way. A violent accident and its aftermath can be emotionally traumatic, but in the moment, you must try to compartmentalize and put away any sense of fear or horror in order to help an injured as best as you can. People have been known to survive injuries that everyone on the scene believed were fatal. It is possible that a critically injured person may either fight for life and survive, or give up hope and expire, based at least in part on what they believe you think of their situation, so act confidently."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -183,8 +187,8 @@ It’s very important if you never move an injured person unless you feel they w
             android:id="@+id/textView30"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Responding to a major accident with serious, sometimes fatal, injuries may be emotionally traumatic, even though at the time it may have been exciting and adrenaline pumping. Many people, even professionals, experience a wide range of delayed emotional responses when the event is over. Post-traumatic stress disorder (PTSD) is a condition that may develop after a terrifying ordeal involving or after witnessing a harmful event. You may experience the following symptoms of PTSD: \n\n
-
 -	Startling easily \n
 -	Feeling emotionally numb \n
 -	Losing interest in things you used to enjoy \n

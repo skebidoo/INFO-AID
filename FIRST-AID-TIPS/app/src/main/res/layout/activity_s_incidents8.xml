@@ -45,13 +45,14 @@
                 android:id="@+id/textView26"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:text="Carbon monoxide is a colorless tasteless and odorless toxic gas that when inhaled can make you feed tired cause headaches or dizziness and in large amounts can lead to death. When carbon monoxide is preset in the air, oxygen-carrying cells will carry the carbon monoxide rather than the oxygen, and will become saturated with the gas and unable to carry needed oxygen to cells. That’s why it is so important to install carbon-monoxide detectors to warn of dangerous levels. \n\n
 
     Most carbon-monoxide poisoning cases in homes occur at night during winter months because homes tend to be sealed up tightly from the cold and may be poorly ventilated. Carbon-monoxide gas is created by the incomplete combustion of carbon-containing compounds in fireplaces, space heaters, forced-air gas, furnaces, appliances, and motor vehicles that use charcoal or fuel. You are also at risk if you have any nonelectric appliances in your home, including a gas stove or water heater or if you have an attached garage. \n\n
 
     Common symptoms of carbon-monoxide poisoning include: \n\n
 
-    -	Weakness \n
+   -	Weakness \n
     -	Dizziness and lightheadedness \n
     -	Inability to concentrate \n
     -	Difficulty moving \n
@@ -85,10 +86,11 @@
                 android:id="@+id/textView27"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:text="The following steps should be followed in case of carbon-monoxide poisoning: \n\n
 
-    1.	If you are fortunate enough to wake up and notice symptoms of carbon monoxide poisoning, fall to the ground and crawl to an exit immediately. \n\n
-    2.	Call emergency number for the rescue of any persons left inside if you can’t safely get them to fresh air yourself, and don’t attempt to rescue anyone without the proper oxygen delivering masks.
+   1.	If you are fortunate enough to wake up and notice symptoms of carbon monoxide poisoning, fall to the ground and crawl to an exit immediately. \n\n
+    2.	Call emergency number for the rescue of any persons left inside if you can’t safely get them to fresh air yourself, and don’t attempt to rescue anyone without the proper oxygen delivering masks. \n\n
     3.	Get into fresh air immediately and make sure you are upwind of the house. \n\n
     4.	Loosen any tight clothing around your neck and waist. \n\n
     5.	The case of a person losing consciousness after getting outside, maintain an open airway and begin CPR or rescue breathing as outlined in Emergency Response menu. \n\n

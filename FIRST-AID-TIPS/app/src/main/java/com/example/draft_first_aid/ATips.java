@@ -17,6 +17,9 @@ public class ATips extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_a_tips);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
 
         WSafety = findViewById(R.id.textView11);
         Bicycling = findViewById(R.id.textView12);
@@ -77,7 +80,7 @@ public class ATips extends AppCompatActivity {
     }
 
     public void openHoSafetyAct() {
-        Intent intent = new Intent (this, AEvents1.class);
+        Intent intent = new Intent (this, ATips4.class);
         startActivity(intent);
     }
 

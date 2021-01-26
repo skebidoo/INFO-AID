@@ -17,7 +17,9 @@ public class SIncidents extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_s_incidents);
-
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
         Bleeding = findViewById(R.id.textView11);
         ITrauma = findViewById(R.id.textView12);
         PTrauma = findViewById(R.id.textView13);

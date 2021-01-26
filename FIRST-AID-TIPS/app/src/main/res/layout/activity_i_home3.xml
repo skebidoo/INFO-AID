@@ -14,7 +14,7 @@
         tools:context=".IHome3">
 
         <Button
-            android:id="@+id/button12"
+            android:id="@+id/button13"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="121dp"
             android:layout_height="47dp"
@@ -62,9 +62,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="There is a possibility of infection anytime the skin is broken because cuts provide an opportunity for infection causing bacteria, viruses, and fungi to enter the body. Infections may develop only in one place on the body (localized infection) or circulate throughout the body via the bloodstream (systemic infection). Symptoms of localized infection include skin that is warm or hot, pain in the area, a pus-like discharge, redness and swelling, and fever and chills. Most minor, localized infections can be cared for at home taking the following steps: \n\n
-
-1. Wash the area daily with soap and water. \n
+            android:textColor="@color/black"
+            android:text="There is a possibility of infection anytime the skin is broken because cuts provide an opportunity for infection causing bacteria, viruses, and fungi to enter the body. Infections may develop only in one place on the body (localized infection) or circulate throughout the body via the bloodstream (systemic infection). Symptoms of localized infection include skin that is warm or hot, pain in the area, a pus-like discharge, redness and swelling, and fever and chills. Most minor, localized infections can be cared for at home taking the following steps: \n\n1. Wash the area daily with soap and water. \n
 2. Apply antibiotic ointment or cream and cover the infected area lightly with a dry gauze, nonstick bandage. \n
 3. Watch for signs of a more serious infections such as increased redness, pain, swelling, or pus. \n \n
 

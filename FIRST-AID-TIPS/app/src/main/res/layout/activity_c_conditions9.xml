@@ -47,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Motion sickness occur when your brain gets signals that do not match the signals from your inner ears, eyes, muscles, and joints. You may experience motion sickness, also known as airsickness, carsickness, and seasickness, while traveling by car, train, airplanes, and particularly by boat or ship. Symptoms of motion sickness include dizziness, fatigue, and nausea often progressing to vomiting. Some people naturally prone to motion sickness, and motion sickness is also associated with migraines, but other are only bothered during extreme turbulence while on boat or plane."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -72,6 +73,7 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Motion sickness can be treated in the following ways: \n\n
 
 -	The best location to prevent seasickness is an interior location of a large ship, or facing forward and looking outside a ship or plane window. \n\n

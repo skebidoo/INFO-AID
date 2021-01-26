@@ -45,6 +45,8 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Asthma affects the breathing passages of the lungs (bronchioles) due to chronic inflammation. This inflammation causes the airways of the person with asthma to become highly sensitive to a variety of ‘trigger,’ and when triggered, the passages swell and feel the mucus. These intern causes the muscles within the breathing passages to contract or spasm (bronchospasms), which results in further narrowing of the airway passages, making it difficult for air to be exhaled from the lungs. It’s the resistance to exhaling that results in the typical symptoms of an asthma attack, including wheezing, difficulty breathing, pain or tightness in the chest, anxiety, coughing, choking sensation, sweating, increased pulse, and recurrent, spasmodic coughing that is often worse during the night. \n\n
 
 If you have asthma, you have to learn to live with the condition and be aware of any danger of attacks when exposed to something that is a trigger for you. Asthma can be cured, but it can’t be controlled, particularly if it is diagnosed early and treatment is begun right away. You should always see your doctor regularly and follow your treatment recommendations. Report any changes or worsening of your symptoms and any side effects of your medications. Treatment is designed to prevent and control symptoms and asthma attacks, particularly attacks that are severe enough to require a visit to an emergency department or hospitalization.\n\n
@@ -79,6 +81,7 @@ Sometimes it might happen: you might have an asthma emergency. Here are some of 
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Anyone with asthma needs to be continually aware of what triggers her symptoms and to avoid those triggers, as well as how to manage symptoms. Take the following steps to help control asthma attacks: \n\n
 
 -	Identify your triggers and how you can avoid them. \n

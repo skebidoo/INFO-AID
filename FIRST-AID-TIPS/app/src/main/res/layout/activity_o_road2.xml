@@ -45,8 +45,8 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="In order to be prepared for any event, from splinters to major accidents, when on the road, it’s important to keep a comprehensive first-aid kid in your vehicle. The best way you decide what you might need to include involves taking a few minutes to try and imagine various conditions and scenarios you might experience where you regularly travel. Are there mountains o cliffs? Are there bodies of water next to the roads? Are the roads lighted at night? Do you travel or live in a remote location with unreliable cellphone coverage? What is the weather throughout the year? In addition to the items listed in First Aid Basics menu for your in-home first-aid kit, and depending on where you typically drive, the following items may be useful additions to your vehicle first-aid kit: \n\n
-
 -	Large, wide-lens flashlight \n
 -	Penlight \n
 -	Several triangle reflectors \n
@@ -95,6 +95,7 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="When you are on the road, make sure to always carry current medical-insurance cards and updated medical histories for everyone that rides with you. If you are in an accident or someone becomes critically in the car, having the necessary information will help you get the right care from first responders to emergency-room medical providers."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

@@ -45,6 +45,7 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:text="	One of the most common and most painful injuries is a burn injury. Burns are caused by extreme heat (both wet and dry), chemicals, electricity, radiation, and even extreme cold. They can affect the skin, eyes, lungs, and other internal organs. The severity of a burn is generally classified in one of three categories, based on the depth of the burn and damage. \n\n
 
 1.	First-degree burns (usually referred to as superficial burns) involve only the outermost layer of skin, called the epidermis. If treated quickly and blisters do not form, first degree burns usually heal very well. Sunburns are a common form of first-degree burns.\n\n
@@ -56,8 +57,10 @@
 
 Never apply adhesive dressings or any lotions, ointments, or creams to a first or second degree burn that you are treating at home unless the skin is broken. For any broken blisters wash carefully with antibacterial soap and tepid water, apply antibiotic ointment, and re-bandage.
 "
+            android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView38"
             app:layout_constraintVertical_bias="0.0" />
@@ -78,6 +81,7 @@ Never apply adhesive dressings or any lotions, ointments, or creams to a first o
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="	For all burns, if you are unsure of the seriousness call emergency number or go to an emergency department. All burns on children, as well as ay of the following, need to be seen by a doctor. \n\n
  - Third-degree burns. \n
  - Second-degree burns larger than an area the size of the palm of your hand. \n
@@ -108,6 +112,7 @@ Never apply adhesive dressings or any lotions, ointments, or creams to a first o
             android:id="@+id/textView28"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Any burned person who is experiencing dizziness or confusion, weakness, fever or chills, or shivering needs immediate medical attention. For serious burns, always calls emergency numbers first, and then perform the following steps, remembering to stay safe, assess the situation, and use universal precautions if you are able to: \n\n
 
 1.	Extinguish the cause of the burn if you are able to with water or by wrapping the injured person in a heavy towel, coat or blanket and rolling them on the ground. Make sure none of the smoldering materials are in contact with the injured person, but don’t remove any burnt clothing. \n\n
@@ -139,6 +144,7 @@ Never apply adhesive dressings or any lotions, ointments, or creams to a first o
             android:id="@+id/textView29"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Chemical burns are always serious, and can be a life threatening. Remember all the personal safety in all first aid situations is of utmost importance. After determining safety measures: \n\n
 
 1.	Remove the person from the scene if necessary, taking steps not to become exposed to toxic fumes or liquids that are present.\n\n
@@ -173,6 +179,7 @@ Chemical burns usually develop much more slowly than heat-related burns, but the
             android:id="@+id/textView30"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Chemical eye burns can severely or permanently damage or destroy the eye. As with other chemical burns, wear gloves and try to prevent splashing more chemical on the person or yourself. Don’t attempt (or let the injured person attempt) to touch the eye or to remove a contact lens that seems stuck to the eye. \n\n
 
 1.	Begin washing your eye as and continue for at least ten minutes. In work settings, go to the emergency eyewash or shower station, use sterile isotonic saline solution, or if not available, use cold tap water. At home, get into the shower immediately with your clothes on in order to wash out your eye.\n\n

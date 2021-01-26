@@ -45,6 +45,7 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="A person may be poisoned by injecting, inhaling, coming in contact with, or swallowing a harmful substance. According to the CDC, about 2.5 million reported poisonings occur in the United States every year. A package without a warning label isn’t necessarily safe. Although symptoms of poisoning often take some time to develop, if you think someone has been poisoned, don’t wait for symptoms, but get that person medical help immediately. \n\n
 Many household items including medicines (for example an aspirin overdose), household detergents, and cleaning products, carbon monoxide, some household plants, paints, insecticides, chemicals, and even some foods can poison if a person has inadvertent exposure. Depending on the poison, symptoms may vary, but include:\n\n
 -	Abdominal pain \n
@@ -92,6 +93,7 @@ Many household items including medicines (for example an aspirin overdose), hous
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Take the following steps if you suspect poisoning: \n\n
 
 1.	Check for ABC’s, call emergency number, begin rescue breathing and CPR if necessary, and then call the PGH National Poison Management and Control Center at (02) 8524 1078 for advice.\n\n

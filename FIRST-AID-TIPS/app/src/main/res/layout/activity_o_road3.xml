@@ -45,6 +45,7 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Because of today’s litigious society, there may be a certain reluctance to help out in emergency situations. Due to the fear of liability that may stop someone from getting involved, each state has laws or regulations known as Good Samaritan Laws to protect you from any liability related to rescues or rescue attempts. The intent of Good Samaritan Law is to protect those who come to the aid of others for no other reason than good will, without any expectation of reward. If your daily job is some type of rescue worker, then you are accountable for any mistakes and aren’t covered under Good Samaritan Laws, because it is expected that you know what you are doing and that should do a good job. \n\n
 
 Depending on the state you live in, if you help someone at an accident and afterward are rewarded monetarily or otherwise, your Good Samaritan protection may be excluded. So, the way to ensure protection from any liability when helping others during rescue operations is to always act on behalf of the injured party with no expectation of reward. If you want primarily to be a hero, not to help out a fellow human being, then you risk making typical mistakes not covered by Good Samaritan laws.\n\n

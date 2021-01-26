@@ -47,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Back injuries, stress-related health problems, carpel tunnel syndrome, headaches, and mental-health problems are all conditions that may result from poor ergonomic workplace conditions including temperature, station design, lighting, noise, rotating shifts, inadequate meals and breaks, and machine design. Small corrective measures can prevent large and costly problems. For example, using ergonomically correct chairs and keyboards, properly positioned workstations, a mouse with the correct tension, wrist supports, telephone neck supports, ample lighting, frequent breaks, and proper foot support are measures that will help prevent many physical problems.
 "
             app:layout_constraintBottom_toBottomOf="parent"
@@ -73,6 +74,7 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="The emergence and ubiquity of computers in the workplace has contributed to an epidemic of repetitive stress injuries most commonly called carpal-tunnel syndrome. Carpal-tunnel syndrome is a painful, progressive condition caused by compression of a nerve in the wrist due to repetitive motion, improper positioning of the wrist, and repeated stressors such as continual vibrations from using a jackhammer or even sewing machine.
 "
             app:layout_constraintBottom_toBottomOf="parent"
@@ -99,6 +101,7 @@
             android:id="@+id/textView22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="The following measures can be used to avoid carpal tunnel syndrome:  \n\n
 
  - Reducing your force and relaxing your grip by tapping keys softly. \n\n
@@ -148,6 +151,7 @@ Following are some carpal-tunnel exercises you can try: \n\n
             android:id="@+id/textView23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Back injuries are one of t he most common and costly work-related disorders in the United States. Lower-back pain is responsible for many days of lost work, increased number of workers-compensation claims, increased monetary business losses, and undue suffering every day. Many back injuries can be prevented by practicing measures for good back health including using ergonomically correct chairs and equipment, good posture, and regular exercise and conditioning. In addition, you should always practice good body mechanics and use proper lifting techniques (see following) to protect your spine and prevent back strain and injuries. \n\n
 
 Proper lifting technique includes the following: \n\n
@@ -197,6 +201,7 @@ Proper lifting technique includes the following: \n\n
             android:id="@+id/textView25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Stop any activity or exercise that increases your pain, and for the first few days take the followings steps: \n\n
 
 1. Take an OTC pain reliver. \n\n

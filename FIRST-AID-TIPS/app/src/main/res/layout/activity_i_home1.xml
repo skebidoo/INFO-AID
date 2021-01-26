@@ -14,7 +14,7 @@
         tools:context=".IHome1">
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/button13"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="121dp"
             android:layout_height="47dp"
@@ -62,6 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Cuts and abrasions of all kinds can happen every day, from scraped knees on a patio to deep cuts on fingers and hands in the kitchen and workshop. Cuts are skin wounds that involve separation of the skin and are usually caused by a sharp object like a knife or a piece of glass. \n\n
 
 Take the followings steps to care for simple cuts and abrasions: \n\n
@@ -106,6 +107,7 @@ Take the followings steps to care for simple cuts and abrasions: \n\n
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="In the case of lacerations that are deep enough to see fatty tissue: \n\n
 
 1. Pull the edges of the wound together and use butterfly closures to secure them. \n
@@ -142,6 +144,7 @@ If stitches are needed, keep the wound closed with butterfly closures until you 
             android:id="@+id/textView28"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="When a wound starts to bleed at any time, apply pressure to control the bleeding. If the cut is deep and bleeding is profuse, treat it as an emergency. Control the bleeding by placing a sterile gauze or pad over the cut and applying steady direct pressure. Lay the person down with feet elevated to help prevent shock. Never apply direct pressure to a wound with a protruding object or bone; instead, apply pressure to either side of the wound. If possible, elevate the cut above the level of the person's heart, and if bleeding is profuse and continuous, refer to Emergency Response menu, Managing Shock, and call emergency number immediately.
 "
             app:layout_constraintBottom_toBottomOf="parent"
@@ -163,6 +166,7 @@ If stitches are needed, keep the wound closed with butterfly closures until you 
             android:id="@+id/textView29"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="When treating abrasions, follow these steps: \n\n
 
 1. Remove any debris such as dirt, fiber, and rocks from an abrasion before cleaning it. \n

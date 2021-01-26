@@ -17,16 +17,18 @@ public class EResponse extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_e_response);
-
-        backButton = (Button) findViewById(R.id.button2);
-        HCpr = findViewById(R.id.textView25);
-        TAid = findViewById(R.id.textView17);
-        BAed = findViewById(R.id.textView18);
-        RPosition = findViewById(R.id.textView19);
-        SAttack = findViewById(R.id.textView20);
-        Choking = findViewById(R.id.textView21);
-        SObjects = findViewById(R.id.textView22);
-        MShocks = findViewById(R.id.textView23);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+        backButton = (Button) findViewById(R.id.button);
+        HCpr = findViewById(R.id.textView11);
+        TAid = findViewById(R.id.textView12);
+        BAed = findViewById(R.id.textView13);
+        RPosition = findViewById(R.id.textView14);
+        SAttack = findViewById(R.id.textView15);
+        Choking = findViewById(R.id.textView16);
+        SObjects = findViewById(R.id.textView17);
+        MShocks = findViewById(R.id.textView18);
 
         HCpr.setOnClickListener(new View.OnClickListener() {
             @Override

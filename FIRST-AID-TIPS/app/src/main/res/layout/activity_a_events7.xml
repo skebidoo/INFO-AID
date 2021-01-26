@@ -45,6 +45,8 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Everyone experiences nausea and vomiting from time to time that usually goes away quickly and can be managed at home, usually with medicine to decrease the nausea and fluid replacement for dehydration. Fluid rehydration also usually helps correct any electrolyte imbalance, which may in turn the vomiting."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -68,6 +70,7 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Take the following steps to treat nausea and vomiting. \n\n
 
 1.	Hydrate with clear liquids (clear soup, broth, juice, herbal tea) beginning with small sips and increasing to four to eight ounces at a time, or one ounce or less at a time for children.\n\n

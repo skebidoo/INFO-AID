@@ -47,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Fainting is a temporary loss of consciousness and muscle control causing you to fall down. Fainting is usually a result of blood pressure dropping suddenly, causing a decrease in blood flow to the brain. Some causes of fainting include heat and dehydration, emotional distress, rising from a sitting position too quickly, certain medications, a drop in blood sugar (hypoglycemia), and a heart problem. \n\n
 
 Vasovagal syncope (fainting) is the most common cause of fainting, triggered by a stimulus that results in an exaggerated response in the part o your nervous system that regulates involuntary body functions such as heart rate and blood flow. When this response is triggered, your heart and blood pressure drop, reducing blood flow to your brain and causing fainting, lasting seconds to a few minutes. Some common triggers a vasovagal syncope include having a bowel movement, standing for long periods, dehydration, the sight of blood, coughing, urination, and emotional distress. Sometimes, though, there is no apparent cause.
@@ -75,6 +76,7 @@ Vasovagal syncope (fainting) is the most common cause of fainting, triggered by 
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="If you feel faint, you should lie or sit down with your head between your knees. If you see someone else faint you should: \n\n
 
 1.	Place the person on her back with legs elevated above the heart if possible, to restore blood flow to the brain. \n\n

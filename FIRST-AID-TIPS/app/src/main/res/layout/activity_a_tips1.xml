@@ -46,6 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="The best way to stay safe around water is to know how to swim, so if you or your children don’t already know how to swim, take lessons at the local public pool to train. Make sure to always swim with a friend; accidents in the water are frequent and the water is one place you should never be alone. When swimming at the beach or local water hole, make sure to only swim in supervised areas and to obey all the rules and posted signs. Also, if you know that the weather conditions are going to be bad, you should not go swimming, or you should stop and get out of the water if there is any indication that bad weather is coming. \n\n
 
 Never drink alcohol and swim- just as with driving, alcohol impairs your judgement, balance, and coordination while it lessens your body’s ability to stay warm in the water. So, drinking while swimming is going to affect your swimming and diving skills, and make it more likely for you to be injured or have a near-drowning incident.
@@ -64,7 +65,7 @@ Never drink alcohol and swim- just as with driving, alcohol impairs your judgeme
             android:layout_height="47dp"
             android:background="@color/design_default_color_error"
             android:text="BACK"
-            android:layout_marginTop="170dp"
+            android:layout_marginTop="40dp"
             android:textColorLink="#FFFFFF"
             android:textSize="15sp"
             app:backgroundTint="#FF0000"

@@ -45,6 +45,8 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Tension headaches are the most common headaches, caused by tight and rigid muscles in your shoulders, neck, scalp, and jaw, most likely due to stress, depression, or anxiety. You may suffer with tension headache if you work too much, mis meals, or use alcohol and don’t get enough sleep. Migraines cluster headaches and sinus headaches are also common, but whatever type of headache you suffer, it’s good to know what lifestyle changes you can make, relaxation techniques you can use, and pain relievers you can take to relieve them. There are many causes of headaches, but severe headaches are less common and can signal a serious disorder. You need to inform your doctor of any sudden severe headaches. If you have a sudden worsening in your usual pattern in headaches, pain in the eye or ear."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -68,6 +70,7 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="When migraine strike because of increased sensitivity to light and sound, try to rest in a quiet, dark room, and apply hot or cold compress to you head or neck. Sometimes massage and very small amounts of caffeine will also help. Most headaches are minor and can be treated with an OTC pain reliever. For unexplained head pain or head pain that steadily worsens, call your medical-care provider. Call emergency number for a headache that occurs suddenly and severely with: \n\n
 -	Fever \n
 -	Stiff neck\n
@@ -121,6 +124,7 @@ Tension headaches may be relieved by lowering body temperature by taking a cool 
             android:layout_height="47dp"
             android:background="@color/design_default_color_error"
             android:text="BACK"
+            android:layout_marginTop="10dp"
             android:textColorLink="#FFFFFF"
             android:textSize="15sp"
             app:backgroundTint="#FF0000"

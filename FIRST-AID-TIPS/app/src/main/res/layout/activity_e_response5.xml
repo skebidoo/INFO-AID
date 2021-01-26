@@ -45,6 +45,7 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Sometimes heart attacks are sudden and there is no doubt what is happening, but those are the minority. Most heart attacks begin slowly with very mild discomfort and pain. The biggest mistake is when people aren't sure and they wait too long to seek help. If you or anyone you know has the following symptoms, seek help immediately: \n\n
 
 - Chest discomfort such as uncomfortable pressure, squeezing, fullness, or pain in the center of the chest lasting more than a few minutes, or that comes and goes. \n
@@ -79,6 +80,7 @@ Women are more likely to have some of the other common symptoms, in particular b
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="The heart functions both mechanically and electrically. It pumps blood by contracting, which you are able to feel as a pulse-the mechanical function. The heart also has cells that regulate the mechanical system by transmitting electrical signals through conduction pathways, stimulating the muscle tissue to contract-the electrical function. The rate of electrical stimulation or pulses normally correlates with the rate of heart-muscle contractions or beats, and should be between sixty and eighty times per minute at rest, increasing with exertion. \n\n
 
 The pumping chambers of the heart are the ventricles. If they suddenly stop effectively contracting and pumping blood into  the body, Sudden Cardiac Arrest (SCA) occurs. The heart then has a disorganized and abnormal rhythm and spasmodic twitching called "

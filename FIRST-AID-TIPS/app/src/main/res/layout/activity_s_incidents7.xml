@@ -45,6 +45,7 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Near drowning is defined as suffocation (severe oxygen deprivation) from being submerged in water that does not result in death. When death occurs, the incident call drowning. The following are symptoms of near drowning.  \n\n
 -	Alert, but anxious to drowsy  \n
 -	Person is not breathing or is gasping for breath, coughing,  \n
@@ -76,6 +77,7 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="The following steps should be followed in the case of a near drowning: \n\n
 
 1.	Rescue breathing as outlined in Emergency Response menu must be started at once if the person is unconscious, even while the person is still in the water, if possible. \n\n

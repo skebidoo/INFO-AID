@@ -18,6 +18,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+
         firstAidButton = (ImageView) findViewById(R.id.imageView4);
         inHomeButton = (ImageView) findViewById(R.id.imageView5);
         EResponseButton = (ImageView) findViewById(R.id.imageView6);
@@ -32,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
         exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-               System.exit(100);
+                finish();
+                finishAffinity();
             }
         });
 
@@ -137,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openCConditionActivity() {
-        Intent intent = new Intent (this, CConditions.class);
+        Intent intent = new Intent (this, CCondition.class);
         startActivity(intent);
     }
 

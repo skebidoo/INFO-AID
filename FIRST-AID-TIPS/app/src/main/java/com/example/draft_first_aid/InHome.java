@@ -17,7 +17,9 @@ public class InHome extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_in_home);
-
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
         backButton = (Button) findViewById(R.id.button4);
         Cuts = findViewById(R.id.textView16);
         PWounds = findViewById(R.id.textView17);

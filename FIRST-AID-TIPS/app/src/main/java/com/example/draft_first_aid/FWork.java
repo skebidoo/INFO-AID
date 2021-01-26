@@ -18,6 +18,9 @@ public class FWork extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_f_work);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
 
         HWorkplace = findViewById(R.id.textView11);
         PWorkplace = findViewById(R.id.textView12);
@@ -68,6 +71,13 @@ public class FWork extends AppCompatActivity {
                 openCWork();
             }
         });
+
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMainActivity();
+            }
+        });
     }
 
     public void openHWork() {
@@ -97,6 +107,11 @@ public class FWork extends AppCompatActivity {
 
     public void openCWork() {
         Intent intent = new Intent (this, FWork6.class);
+        startActivity(intent);
+    }
+
+    public void openMainActivity() {
+        Intent intent = new Intent (this, MainActivity.class);
         startActivity(intent);
     }
 }

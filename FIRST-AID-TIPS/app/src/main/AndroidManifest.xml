@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DRAFTFIRSTAID">
-        <activity android:name=".FWork6"></activity>
+        <activity android:name=".CCondition"></activity>
+        <activity android:name=".FWork6" />
         <activity android:name=".FWork5" />
         <activity android:name=".FWork4" />
         <activity android:name=".FWork3" />
@@ -27,7 +28,6 @@
         <activity android:name=".CConditions3" />
         <activity android:name=".CConditions2" />
         <activity android:name=".CConditions1" />
-        <activity android:name=".CConditions" />
         <activity android:name=".ATips4" />
         <activity android:name=".ATips3" />
         <activity android:name=".ATips2" />

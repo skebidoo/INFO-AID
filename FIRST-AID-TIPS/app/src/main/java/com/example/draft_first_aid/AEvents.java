@@ -17,6 +17,9 @@ public class AEvents extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_a_events);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
 
         Burns = findViewById(R.id.textView11);
         SBurn = findViewById(R.id.textView12);

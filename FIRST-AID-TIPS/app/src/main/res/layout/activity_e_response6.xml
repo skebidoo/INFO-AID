@@ -45,6 +45,7 @@
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Choking occurs when an object gets stuck in the throat and partly or completely blocks the airway. Signs of choking include: \n\n
 
 - Pointing to throat, hands crossed on throat (universal sign of choking)\n
@@ -76,6 +77,7 @@
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="When you suspect someone is choking, ask her, 'Are you choking?' If the person is able to answer you, don't do anything because it's likely that she will free the food or object on her own. In the case of actual choking, the person will not be able to talk and you need to help them. Call emergency number if the person can't talk, make noise, or breathe well or is unconscious, then perform the Heimlich maneuver as outlined below. If the person is unconscious, lay her on her back. Check the person's mouth for any visible obstruction and try to dislodge it using a finger sweep. If you are unable to do so, begin mouth-to-mouth resuscitation and CPR. Continue to check inside the person's mouth for any signs of the foreign body as the chest compressions of CPR may dislodge it.
 "
             app:layout_constraintBottom_toBottomOf="parent"

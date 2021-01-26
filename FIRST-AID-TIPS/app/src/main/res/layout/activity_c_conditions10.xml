@@ -48,6 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Your blood pressure is related to the amount of blood in your heart pumps and the degree of resistance to blood flow in your arteries. Even with very high, or even dangerously high, blood pressure, you don’t have usually have symptoms, although with some people with very high blood pressure may have dull headaches, dizziness, or frequent nosebleeds. \n\n
 
 Your risk of high pressure increases as you age, and although high blood pressure is more common in men, women often develop high blood pressure after menopause. Hypertension is very common among African Americans and correlates with serious complications including stroke and heart attack.
@@ -76,6 +77,7 @@ Your risk of high pressure increases as you age, and although high blood pressur
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Hypertension runs in families, so it has genetic risk factors, but you can control other risk factor by increasing your level of physical activity, which help your heart along with waistline. The management and control of high blood pressure includes the following lifestyle modifications a medication: \n\n
 
 -	Quit smoking and keep alcohol consumption to no more than two drinks a day. \n\n

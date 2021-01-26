@@ -48,6 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Panic attacks can happen anywhere, anytime-while alone in the company of others, in public, in home, and even waking you from sleep. If you have experienced panic attacks, you are aware that they are similar to an episode of extreme fear; along with the following symptoms: \n\n
 
 -	Rapid heart rate \n\n
@@ -91,6 +92,7 @@ Oftentimes, people experiencing panic attack think that they are having a heart 
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Relaxation techniques such as mediation, muscle relaxation, relaxed breathing, and guided imagery (visualization) may help keep attacks at bay and help ease signs of symptoms of stress such as headaches, anxiety, high blood pressure, trouble falling asleep, hyperventilation, and clinching or grinding of teeth. Practice focusing on relaxing your body by following these steps: \n\n
 
 1.	Sit or lie down in a comfortable position with your eyes closed. \n\n

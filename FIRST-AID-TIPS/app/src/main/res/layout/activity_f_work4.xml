@@ -47,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:text="Any workplace that involves potential eye injuries such as working with corrosive, irritating, toxic, or tissue-damaging materials needs to be equipped with an emergency eyewash station to protect you from serious eye damage or blindness. Workplaces that have potential chemical, biological, or radiological hazards need to be equipped with emergency shower stations. All other workplaces need to have a central emergency location where emergency supplies are located. The station or area should include the following: \n\n
 
  - Emergency phone numbers \n\n
@@ -99,6 +100,7 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Learning to use the AED should also be a part of your emergency protocol, planning, and training. According to OSHA, cardiac arrest causes 15 percent of workplace fatalities, and 40 percent of these lives could be saved with the use of an AED within five minutes of arrest. Having an AED that can be reached in two or three minutes by every location of your workplace is a matter of life and death."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

@@ -17,6 +17,9 @@ public class FirstAid extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first_aid);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
 
         dontpanic = findViewById(R.id.textView11);
         proper = findViewById(R.id.textView12);

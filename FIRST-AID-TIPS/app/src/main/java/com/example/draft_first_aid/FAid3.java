@@ -13,6 +13,9 @@ public class FAid3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_f_aid3);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
         backButton = findViewById(R.id.button5);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
